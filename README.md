@@ -2,20 +2,25 @@
 Selenium Qspiders on eclipse with JAVA
 
 1.  [get()](#get())
-1.  [getTitle()](#getTitle())
-1.  [getCurrentUrl()](#getCurrentUrl())
-1.  [getPageSource()](#getPageSource())
-1.  [getPageSource()](#getPageSource())
-1.  [manage()](#manage())
+2.  [getTitle()](#getTitle())
+3.  [getCurrentUrl()](#getCurrentUrl())
+4.  [getPageSource()](#getPageSource())
+5.  [manage()](#manage())
+6.  [switchTo()](#switchTo())
+7.  [navigate()](#navigate())
+8.  [close()](#close())
+9.  [quit()](#quit())
+10.  [getWindowHandle](#getWindowHandle)
+11.  [getWindowHandles](#getWindowHandles)
+
+12.  [findElement](#findElement)
+    1.  [Fb login with findElement by id and name](#Fb_login_with_findElement_by_id_and_name)
+    2.  [Fb login with findElement by cssSelector](#Fb_login_with_findElement_by_cssSelector)
+    3.  [link access with findElement by linktext](#link_access_with_findElement_by_linktext)
+    4.  [link access with xpath 1](#xpath1)
+13.  [findElements](#findElements)
 
 
-
-1.  [getWindowHandles](#getWindowHandles)
-
-1.  [Fb login with findElement by id and name](#Fb_login_with_findElement_by_id_and_name)
-2.  [Fb login with findElement by cssSelector](#Fb_login_with_findElement_by_cssSelector)
-3.  [link access with findElement by linktext](#link_access_with_findElement_by_linktext)
-3.  [link access with xpath 1](#xpath1)
 
 
 ## get()
