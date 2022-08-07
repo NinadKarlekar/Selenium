@@ -64,8 +64,8 @@ Selenium Qspiders on eclipse with JAVA
 ```
 *********************************
 
-## get() , getTitle() , getCurrentUrl() , getPageSource() , manage() **OUTPUT**
-
+## get() , getTitle() , getCurrentUrl() , getPageSource() , manage() **CODE AND OUTPUT**
+![get get](https://user-images.githubusercontent.com/88243315/183307855-7f0ea5b7-a162-4fb5-8214-b480875241b0.png)
 ![image](https://user-images.githubusercontent.com/88243315/183306372-f4fa19dc-ead4-4a5d-9c50-0a31817c5ad4.png)
 
 *********************************
@@ -113,6 +113,9 @@ Selenium Qspiders on eclipse with JAVA
 - get.windowhandle(): helps in getting the window handle of the current window
 - get.windowhandles(): helps in getting the handles of all the windows opened
 - set: helps to set the window handles which is in the form of a string.  set<string> set= driver.get.windowhandles()
+![getwindowhandles](https://user-images.githubusercontent.com/88243315/183307832-43629bd6-d408-4ff3-aaae-c792be8bb1b1.png)
+
+
 *********************************
 
 ## Fb_login_with_findElement_by_id_and_name
