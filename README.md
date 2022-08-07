@@ -14,10 +14,10 @@ Selenium Qspiders on eclipse with JAVA
 11.  [getWindowHandles](#getWindowHandles)
 
 12.  [findElement](#findElement)
-    1.  [Fb login with findElement by id and name](#Fb_login_with_findElement_by_id_and_name)
-    2.  [Fb login with findElement by cssSelector](#Fb_login_with_findElement_by_cssSelector)
-    3.  [link access with findElement by linktext](#link_access_with_findElement_by_linktext)
-    4.  [link access with xpath 1](#xpath1)
+    1. [Fb login with findElement by id and name](#Fb_login_with_findElement_by_id_and_name)
+    2. [Fb login with findElement by cssSelector](#Fb_login_with_findElement_by_cssSelector)
+    3. [link access with findElement by linktext](#link_access_with_findElement_by_linktext)
+    4. [link access with xpath 1](#xpath1)
 13.  [findElements](#findElements)
 
 
