@@ -64,7 +64,7 @@ Selenium Qspiders on eclipse with JAVA
 ```
 *********************************
 
-##### get() , getTitle() , getCurrentUrl() , getPageSource() , manage() **OUTPUT**
+## get() , getTitle() , getCurrentUrl() , getPageSource() , manage() **OUTPUT**
 
 ![image](https://user-images.githubusercontent.com/88243315/183306372-f4fa19dc-ead4-4a5d-9c50-0a31817c5ad4.png)
 
