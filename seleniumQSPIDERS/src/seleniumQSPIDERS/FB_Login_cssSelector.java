@@ -28,8 +28,6 @@ public class FB_Login_cssSelector {
 		Thread.sleep(3000);
 		
 		WebElement loginBtn = driver.findElement(By.cssSelector("button[type='submit']"));
-		loginBtn.click();
-
-		
+		loginBtn.click();		
 	}
 }
