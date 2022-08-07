@@ -22,27 +22,36 @@ Selenium Qspiders on eclipse with JAVA
 - It is used to enter url
 - It also waits till first page is completly loaded
 - Syntax:-
-    - `driver.get("url");`
+```java
+    driver.get("url");
+```
 *********************************
 
 ## getTitle()
 - It is used to fetch title of page
 - Syntax:-
- ```java
+```java
     String title = driver.getTitle(); //getTitle()
-    System.out.println("\nTitle of Page is:- "+title);```
+    System.out.println("\nTitle of Page is:- "+title);
+```
 *********************************
 
 ## getCurrentUrl()
 - It is used to fetch url of current page
 - Syntax:-
-
+```java
+    String url = driver.getCurrentUrl(); //getCurrentUrl()
+    System.out.println("\nurl of Page is:-"+ url);
+```
 *********************************
 
 ## getPageSource()
 - It is used to fetch html code of current page
 - Syntax:-
-
+```java
+		String page = driver.getPageSource(); //getPageSource()
+		System.out.println("\nSource code of Page is:- "+page);
+```
 
 **************************************
 
