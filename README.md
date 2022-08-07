@@ -1,12 +1,64 @@
 # Selenium
 Selenium Qspiders on eclipse with JAVA
 
+1.  [get()](#get())
+
+
+
+
+1.  [getWindowHandles](#getWindowHandles)
 
 1.  [Fb login with findElement by id and name](#Fb_login_with_findElement_by_id_and_name)
 2.  [Fb login with findElement by cssSelector](#Fb_login_with_findElement_by_cssSelector)
 3.  [link access with findElement by linktext](#link_access_with_findElement_by_linktext)
 3.  [link access with xpath 1](#xpath1)
 
+
+## get()
+- It is used to enter url
+- It also waits till first page is completly loaded
+
+## getTitle()
+- It is used to fetch title of page
+
+## getCurrentUrl()
+- It is used to fetch url of current page
+
+## getPageSource()
+- It is used to fetch html code of current page
+
+## manage()
+- This method is used to maximize or minimize window
+
+## switchTo()
+- switchTo() method is used to type text in active element.
+- Any element where cursor is blinking is called Active element.
+
+
+## navigate()
+- Navigation commands are those commands in Selenium that are used to perform different operations such as backward, forward, refresh, wait, etc in the browser’s history.
+- It has 3 types
+
+ 1. Navigate forward: This method is used to move forward by one page on the browser’s history.
+ Syntax:
+      ` driver.navigate().forward();`
+ 2. Navigate Back :  This method is used to move back by one page on the browser’s history. 
+ Syntax:
+        `driver.navigate().back();`
+ 3. To Command:  This method is used to navigate the URL of the web page in the current browser window. It will just navigate to the web page but not wait till the whole page gets loaded.
+ Syntax: 
+        `driver.navigate().to(URL);`
+ 4. To refresh: This method is used to refresh the current web page.
+ Syntax:
+       ` driver.navigate().refresh();`
+
+
+
+## getWindowHandles
+
+- get.windowhandle(): helps in getting the window handle of the current window
+- get.windowhandles(): helps in getting the handles of all the windows opened
+- set: helps to set the window handles which is in the form of a string.  set<string> set= driver.get.windowhandles()
 
 ## Fb_login_with_findElement_by_id_and_name
 
@@ -39,3 +91,4 @@ Selenium Qspiders on eclipse with JAVA
 ![linkhtml](https://user-images.githubusercontent.com/88243315/183301642-8c39b684-cfa0-42fe-b463-5263d93c4d9f.png)
 
 ***************************************************************
+
