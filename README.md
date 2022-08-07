@@ -40,16 +40,16 @@ Selenium Qspiders on eclipse with JAVA
 - It has 3 types
 
    - Navigate forward: This method is used to move forward by one page on the browser’s history.
-    Syntax:
+        * Syntax:
       ` driver.navigate().forward();`
    - Navigate Back :  This method is used to move back by one page on the browser’s history. 
-    Syntax:
+        * Syntax:
         `driver.navigate().back();`
    - To Command:  This method is used to navigate the URL of the web page in the current browser window. It will just navigate to the web page but not wait till the whole page gets loaded.
-    Syntax: 
+        * Syntax: 
         `driver.navigate().to(URL);`
    - To refresh: This method is used to refresh the current web page.
-        Syntax:
+        * Syntax:
        ` driver.navigate().refresh();`
 
 
