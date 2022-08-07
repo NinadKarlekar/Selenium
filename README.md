@@ -113,6 +113,7 @@ Selenium Qspiders on eclipse with JAVA
 - get.windowhandle(): helps in getting the window handle of the current window
 - get.windowhandles(): helps in getting the handles of all the windows opened
 - set: helps to set the window handles which is in the form of a string.  set<string> set= driver.get.windowhandles()
+*********************************
 
 ## Fb_login_with_findElement_by_id_and_name
 
@@ -122,7 +123,6 @@ Selenium Qspiders on eclipse with JAVA
 ********************************************************
 ## Fb_login_with_findElement_by_cssSelector
 - tag[attribute name='attribute value']
-
 ![cssselector](https://user-images.githubusercontent.com/88243315/183301536-42550764-13a1-45dc-aafd-32a8a36e79dc.png)
 
 
@@ -142,7 +142,6 @@ Selenium Qspiders on eclipse with JAVA
 
 - link.html file
 ![linkhtml](https://user-images.githubusercontent.com/88243315/183301642-8c39b684-cfa0-42fe-b463-5263d93c4d9f.png)
-   
 ![WhatsApp Image 2022-08-07 at 8 44 19 PM](https://user-images.githubusercontent.com/88243315/183306551-ebe126c7-3227-47dd-bd34-808b153118b8.jpeg)
 
 

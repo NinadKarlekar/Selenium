@@ -20,7 +20,6 @@ public class getWindowHandles {
 		Set<String> allWhs = driver.getWindowHandles();
 		System.out.println(allWhs);
 		
-		driver.close();
-		
+		driver.close();		
 	}
 }
