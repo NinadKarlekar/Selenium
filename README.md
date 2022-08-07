@@ -58,10 +58,14 @@ Selenium Qspiders on eclipse with JAVA
 ## manage()
 - This method is used to maximize or minimize window
 - Syntax:-
-
+```java
+		driver.manage().window().maximize();  //manage()
+		driver.manage().window().minimize();
+```
 *********************************
 
 ##### get() , getTitle() , getCurrentUrl() , getPageSource() , manage() **OUTPUT**
+
 ![image](https://user-images.githubusercontent.com/88243315/183306372-f4fa19dc-ead4-4a5d-9c50-0a31817c5ad4.png)
 
 *********************************
@@ -81,16 +85,25 @@ Selenium Qspiders on eclipse with JAVA
 
    - **Navigate forward:** This method is used to move forward by one page on the browser’s history.
         * Syntax:
-      ` driver.navigate().forward();`
+```java
+    driver.navigate().forward();
+```
    - **Navigate Back :**  This method is used to move back by one page on the browser’s history. 
         * Syntax:
-        `driver.navigate().back();`
+```java
+    driver.navigate().back();
+```
    - **To Command:**  This method is used to navigate the URL of the web page in the current browser window. It will just navigate to the web page but not wait till the whole page gets loaded.
         * Syntax: 
-        `driver.navigate().to(URL);`
+```java
+    driver.navigate().to(URL);
+```
    - **To refresh:** This method is used to refresh the current web page.
         * Syntax:
-       ` driver.navigate().refresh();`
+```java
+    driver.navigate().refresh();
+```
+
 
 *********************************
 
