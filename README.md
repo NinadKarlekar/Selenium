@@ -18,40 +18,52 @@ Selenium Qspiders on eclipse with JAVA
 - It is used to enter url
 - It also waits till first page is completly loaded
 
+*********************************
+
 ## getTitle()
 - It is used to fetch title of page
+
+*********************************
 
 ## getCurrentUrl()
 - It is used to fetch url of current page
 
+*********************************
+
 ## getPageSource()
 - It is used to fetch html code of current page
 
+*********************************
+
 ## manage()
 - This method is used to maximize or minimize window
+
+*********************************
 
 ## switchTo()
 - switchTo() method is used to type text in active element.
 - Any element where cursor is blinking is called Active element.
 
+*********************************
 
 ## navigate()
 - Navigation commands are those commands in Selenium that are used to perform different operations such as backward, forward, refresh, wait, etc in the browser’s history.
 - It has 3 types
 
-   - Navigate forward: This method is used to move forward by one page on the browser’s history.
+   - **Navigate forward:** This method is used to move forward by one page on the browser’s history.
         * Syntax:
       ` driver.navigate().forward();`
-   - Navigate Back :  This method is used to move back by one page on the browser’s history. 
+   - **Navigate Back :**  This method is used to move back by one page on the browser’s history. 
         * Syntax:
         `driver.navigate().back();`
-   - To Command:  This method is used to navigate the URL of the web page in the current browser window. It will just navigate to the web page but not wait till the whole page gets loaded.
+   - **To Command:**  This method is used to navigate the URL of the web page in the current browser window. It will just navigate to the web page but not wait till the whole page gets loaded.
         * Syntax: 
         `driver.navigate().to(URL);`
-   - To refresh: This method is used to refresh the current web page.
+   - **To refresh:** This method is used to refresh the current web page.
         * Syntax:
        ` driver.navigate().refresh();`
 
+*********************************
 
 
 ## getWindowHandles
