@@ -9,16 +9,18 @@ Selenium Qspiders on eclipse with JAVA
 
 ## Fb_login_with_findElement_by_id_and_name
 
-
-
+![Uploading byidname.png…]()
 
 ********************************************************
 ## Fb_login_with_findElement_by_cssSelector
 
-
+![Uploading cssselector.png…]()
 
 ***************************************************************
 ## xpath1
 - Here we used link.html file to test
 
 
+![Uploading xpath1.png…]()
+
+***************************************************************
