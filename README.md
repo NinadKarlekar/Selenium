@@ -21,29 +21,34 @@ Selenium Qspiders on eclipse with JAVA
 ## get()
 - It is used to enter url
 - It also waits till first page is completly loaded
-
+- Syntax:-
+    - `driver.get("url");`
 *********************************
 
 ## getTitle()
 - It is used to fetch title of page
-
-- `String title = driver.getTitle(); //getTitle()`
-- `System.out.println("\nTitle of Page is:- "+title);`
+- Syntax:-
+ ```java
+    String title = driver.getTitle(); //getTitle()
+    System.out.println("\nTitle of Page is:- "+title);```
 *********************************
 
 ## getCurrentUrl()
 - It is used to fetch url of current page
+- Syntax:-
 
 *********************************
 
 ## getPageSource()
 - It is used to fetch html code of current page
+- Syntax:-
 
 
 **************************************
 
 ## manage()
 - This method is used to maximize or minimize window
+- Syntax:-
 
 *********************************
 
@@ -57,6 +62,7 @@ Selenium Qspiders on eclipse with JAVA
 ## switchTo()
 - switchTo() method is used to type text in active element.
 - Any element where cursor is blinking is called Active element.
+- Syntax:-
 
 *********************************
 
