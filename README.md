@@ -1,9 +1,9 @@
 # Selenium
 Selenium Qspiders on eclipse with JAVA
 
-1.  [get()](#get())
-2.  [getTitle()](#getTitle())
-3.  [getCurrentUrl()](#getCurrentUrl())
+1.  [get()](#get)
+2.  [getTitle()](#getTitle)
+3.  [getCurrentUrl()](#getCurrentUrl)
 4.  [getPageSource()](#getPageSource())
 5.  [manage()](#manage())
 6.  [switchTo()](#switchTo())
@@ -23,7 +23,7 @@ Selenium Qspiders on eclipse with JAVA
 
 
 
-## get()
+## get
 - It is used to enter url
 - It also waits till first page is completly loaded
 - Syntax:-
@@ -32,7 +32,7 @@ Selenium Qspiders on eclipse with JAVA
 ```
 *********************************
 
-## getTitle()
+## getTitle
 - It is used to fetch title of page
 - Syntax:-
 ```java
