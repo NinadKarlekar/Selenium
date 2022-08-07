@@ -104,7 +104,6 @@ Selenium Qspiders on eclipse with JAVA
 
 ## xpath1
 - Here we used link.html file to test
-
 ![xpath1](https://user-images.githubusercontent.com/88243315/183301525-5aba36e7-e525-452d-b421-6cc29890ab55.png)
 
 - link.html file
