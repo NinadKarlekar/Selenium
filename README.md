@@ -33,16 +33,20 @@ Selenium Qspiders on eclipse with JAVA
 ## getPageSource()
 - It is used to fetch html code of current page
 
-**************************************
-get() , getTitle() , getCurrentUrl() , getPageSource() , manage() **OUTPUT**
-![image](https://user-images.githubusercontent.com/88243315/183306372-f4fa19dc-ead4-4a5d-9c50-0a31817c5ad4.png)
 
-*********************************
+**************************************
 
 ## manage()
 - This method is used to maximize or minimize window
 
 *********************************
+
+get() , getTitle() , getCurrentUrl() , getPageSource() , manage() **OUTPUT**
+![image](https://user-images.githubusercontent.com/88243315/183306372-f4fa19dc-ead4-4a5d-9c50-0a31817c5ad4.png)
+
+*********************************
+
+
 
 ## switchTo()
 - switchTo() method is used to type text in active element.
