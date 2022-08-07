@@ -13,12 +13,12 @@ Selenium Qspiders on eclipse with JAVA
 10.  [getWindowHandle](#getWindowHandle)
 11.  [getWindowHandles](#getWindowHandles)
 
-12.  [findElement](#findElement)
+12. [findElement](#findElement)
     - [Fb login with findElement by id and name](#Fb_login_with_findElement_by_id_and_name)
     - [Fb login with findElement by cssSelector](#Fb_login_with_findElement_by_cssSelector)
     - [link access with findElement by linktext](#link_access_with_findElement_by_linktext)
     - [link access with xpath 1](#xpath1)
-13.  [findElements](#findElements)
+13. [findElements](#findElements)
 
 
 
