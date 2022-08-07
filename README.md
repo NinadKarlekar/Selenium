@@ -27,8 +27,8 @@ Selenium Qspiders on eclipse with JAVA
 ## getTitle()
 - It is used to fetch title of page
 
-`String title = driver.getTitle(); //getTitle()`
-`System.out.println("\nTitle of Page is:- "+title);`
+- `String title = driver.getTitle(); //getTitle()`
+- `System.out.println("\nTitle of Page is:- "+title);`
 *********************************
 
 ## getCurrentUrl()
