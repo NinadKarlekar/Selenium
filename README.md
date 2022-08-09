@@ -158,5 +158,11 @@ Selenium Qspiders on eclipse with JAVA
 
 Element | Absolute Xpath | Relative Xpath
 --- | --- | ---
-*Google* | `./html/body/div[1]/a[1]` | **nicely**
-1 | 2 | 3
+*Google* | `./html/body/div[1]/a[1]` | `//div[1]/a[1]`
+*T3* | `./html/body/div[2]/input[2]` | `//input[2]`
+*Google , FB* | `./html/body/div[1]/a` | `//div[1]/a`
+*Google ,Amazon* | `./html/body/div/a[1]` | `//a[1]`
+*T1 ,T2 ,T3* | `./html/body/div/input` | `//input`
+*T1 ,T2* | `./html/body/div/input[1]` | `//input[1]`
+*Google ,T1* | `./html/body/div[1]/a[1] | ./html/body/div/input` | `//div[1]/a[1] | div[1]/input`
+*Google ,FB ,Amazon* | `./html/body/div/a` | `//a`
