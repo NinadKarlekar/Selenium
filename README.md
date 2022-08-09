@@ -142,13 +142,15 @@ Selenium Qspiders on eclipse with JAVA
  
 ### Fb_login_with_findElement_by_id_and_name
 
-![byidname](https://user-images.githubusercontent.com/88243315/ 183301543-461357b2-a43c-4cac-b1e8-b26280feb44c.png)
+![byidname](https://user-images.githubusercontent.com/88243315/183723496-c773d60c-ac89-4a96-b985-f493aa39618d.png)
 
+
+	
 ********************************************************
 ## Fb_login_with_findElement_by_cssSelector
 - tag[attribute name='attribute value']
 
-![cssselector](https://user-images.githubusercontent.com/88243315/ 183301536-42550764-13a1-45dc-aafd-32a8a36e79dc.png)
+![cssselector](https://user-images.githubusercontent.com/88243315/183723526-65d61c8b-e02e-4aa7-9840-3f17d97a3564.png)
 
 
 ***************************************************************
