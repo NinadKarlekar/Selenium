@@ -154,8 +154,8 @@ Selenium Qspiders on eclipse with JAVA
 ***************************************************************
 ## link_access_with_findElement_by_linktext
 
+![linktext](https://user-images.githubusercontent.com/88243315/183723344-2a91c02e-e0a0-4a2c-80f5-269e46197dee.png)
 
-![linktext](https://user-images.githubusercontent.com/88243315/ 183308713-f75f6e4d-28dc-4ce8-829c-d99e6d91a96a.png)
  
  
 ***************************************************************
