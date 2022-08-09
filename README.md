@@ -164,5 +164,4 @@ Element | Absolute Xpath | Relative Xpath
 *Google ,Amazon* | `./html/body/div/a[1]` | `//a[1]`
 *T1 ,T2 ,T3* | `./html/body/div/input` | `//input`
 *T1 ,T2* | `./html/body/div/input[1]` | `//input[1]`
-*Google ,T1* | `./html/body/div[1]/a[1]|./html/body/div/input` | `//div[1]/a[1] | div[1]/input`
 *Google ,FB ,Amazon* | `./html/body/div/a` | `//a`
