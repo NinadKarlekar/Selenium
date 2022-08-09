@@ -18,8 +18,8 @@ Selenium Qspiders on eclipse with JAVA
     - [Fb login with findElement by cssSelector](#Fb_login_with_findElement_by_cssSelector)
     - [link access with findElement by linktext](#link_access_with_findElement_by_linktext)
     - [link access with xpath](#xpath1)
-        - [link access with Abso;ute xpath](#xpath1)
-        - [link access with Abso;ute xpath](#xpath1)
+        - [link access with Absolute xpath](#AbsoluteXpath)
+        - [link access with Relative xpath](#RelativeXpath)
 13. [findElements](#findElements)
 
 
@@ -70,6 +70,22 @@ Selenium Qspiders on eclipse with JAVA
 		driver.manage().window().minimize();
 ```
 *********************************
+## close
+- The close() method is a Webdriver command that closes the browser window **currently in focus**.
+- Syntax:-
+```java
+		driver.close();
+```
+
+*********************************
+## quit
+- The quit() command quits the entire browser session with **all its tabs and windows.**.
+- Syntax:-
+```java
+		driver.quit();
+```
+
+*********************************
 
 ## get() , getTitle() , getCurrentUrl() , getPageSource() , manage() **CODE AND OUTPUT**
 ![get get](https://user-images.githubusercontent.com/88243315/183307855-7f0ea5b7-a162-4fb5-8214-b480875241b0.png)
@@ -111,9 +127,7 @@ Selenium Qspiders on eclipse with JAVA
     driver.navigate().refresh();
     ```
 
-
 *********************************
-
 
 ## getWindowHandles
 
@@ -124,10 +138,11 @@ Selenium Qspiders on eclipse with JAVA
 
 
 *********************************
+## findElement
 
-## Fb_login_with_findElement_by_id_and_name
+ #### Fb_login_with_findElement_by_id_and_name
 
-![byidname](https://user-images.githubusercontent.com/88243315/183301543-461357b2-a43c-4cac-b1e8-b26280feb44c.png)
+ ![byidname](https://user-images.githubusercontent.com/88243315/183301543-461357b2-a43c-4cac-b1e8-b26280feb44c.png)
 
 
 ********************************************************
@@ -148,11 +163,14 @@ Selenium Qspiders on eclipse with JAVA
 
 
 ## xpath1
+Xpath is having 2 types:-
+1. Absolute Xpath
+2. Relative Xpath
 
- 1. **Absolute Xpath**
+### AbsoluteXpath
     ![xpath1](https://user-images.githubusercontent.com/88243315/183301525-5aba36e7-e525-452d-b421-6cc29890ab55.png)
 
- 2. **Relative xpath**
+### RelativeXpath
 
 - link.html file
 ![linkhtml](https://user-images.githubusercontent.com/88243315/183301642-8c39b684-cfa0-42fe-b463-5263d93c4d9f.png)
