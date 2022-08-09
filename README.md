@@ -156,3 +156,7 @@ Selenium Qspiders on eclipse with JAVA
 
 ***************************************************************
 
+Element | Absolute Xpath | Relative Xpath
+--- | --- | ---
+*Google* | `./html/body/div[1]/a[1]` | **nicely**
+1 | 2 | 3
