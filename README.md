@@ -146,15 +146,18 @@ Selenium Qspiders on eclipse with JAVA
 
 
 ## xpath1
-- Here we used link.html file to test
+
+1. Absolute Xpath
 ![xpath1](https://user-images.githubusercontent.com/88243315/183301525-5aba36e7-e525-452d-b421-6cc29890ab55.png)
+
+
+2. Relative xpath
 
 - link.html file
 ![linkhtml](https://user-images.githubusercontent.com/88243315/183301642-8c39b684-cfa0-42fe-b463-5263d93c4d9f.png)
 ![WhatsApp Image 2022-08-07 at 8 44 19 PM](https://user-images.githubusercontent.com/88243315/183306551-ebe126c7-3227-47dd-bd34-808b153118b8.jpeg)
 
 
-***************************************************************
 
 Element | Absolute Xpath | Relative Xpath
 --- | --- | ---
@@ -165,3 +168,5 @@ Element | Absolute Xpath | Relative Xpath
 *T1 ,T2 ,T3* | `./html/body/div/input` | `//input`
 *T1 ,T2* | `./html/body/div/input[1]` | `//input[1]`
 *Google ,FB ,Amazon* | `./html/body/div/a` | `//a`
+
+***************************************************************
