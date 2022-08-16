@@ -2,6 +2,8 @@
 Xpath are of 2 types:-
 1.  [AbsoluteXpath](#AbsoluteXpath)
 2.  [RelativeXpath](#RelativeXpath)
+    1.  [AbsoluteXpath](#AbsoluteXpath)
+    2.  [RelativeXpath](#RelativeXpath)
 
 
 ## AbsoluteXpath
@@ -26,3 +28,6 @@ Xpath are of 2 types:-
     //For link 1 GOOGLE
 	driver.findElement(By.xpath("//div[1]/a[1]")).click();
 ```
+- There are several types of Relative Xpath
+1.  [AbsoluteXpath](#AbsoluteXpath)
+2.  [RelativeXpath](#RelativeXpath)
