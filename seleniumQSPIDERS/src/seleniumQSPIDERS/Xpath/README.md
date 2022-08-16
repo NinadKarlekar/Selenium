@@ -92,7 +92,7 @@ Xpath are of 2 types:-
     ```
     - Example:-
     ```java
-    	driver.findElement(By.xpath("//a[contains(text(),'Facebook')]")).click();
+        driver.findElement(By.xpath("//a[contains(text(),'Facebook')]")).click();
 
         driver.findElement(By.xpath("//a[contains(.,'Amazon')]")).click();
     ```
