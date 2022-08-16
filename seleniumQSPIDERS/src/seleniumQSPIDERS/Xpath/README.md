@@ -31,6 +31,8 @@ Xpath are of 2 types:-
 - There are several types of Relative Xpath
 1.  [Xpath_by_Attribute](#Xpath_by_Attribute)
 2.  [Xpath_by_TextFunction](#Xpath_by_TextFunction)
+2.  [Xpath_by_ContainsFunction](#Xpath_by_ContainsFunction)
+2.  [Xpath_by_Dependant_Independant](#Xpath_by_Dependant_Independant)
 
 
 ### Xpath_by_Attribute
@@ -44,6 +46,7 @@ Xpath are of 2 types:-
     //To find Login TextBox in Facebook login page.
 	driver.findElement(By.xpath("//input[@type='text']")).sendKeys("bamlutuyde@vusra.com");
 ```
+**************************************************************************
 
 ### Xpath_by_TextFunction
 - Syntax:-
@@ -58,6 +61,28 @@ Xpath are of 2 types:-
 ```java
     //To find password TextBox in Facebook login page.
 	driver.findElement(By.xpath("//span[.='Log Out']")).click();
+                    //OR
 	driver.findElement(By.xpath("//span[text()='Log Out']")).click();
+                    //OR
 	driver.findElement(By.xpath("//*[text()='Log Out']")).click();
 ```
+**************************************************************************
+
+### Xpath_by_ContainsFunction
+- The contain feature has an ability to find the element with partial text.
+- Contains Method has 2 types:-
+    ##### Attributes
+    - Syntax:-
+    ```
+        //tag[contains(@AttributeName,'Partial Attribute Value')]
+    ```
+
+    ##### Text
+    - Syntax:-
+    ```
+        //tag[contains(text(),'Partial Text Value')]
+
+                        OR
+
+        //tag[contains(.,'Partial Text Value')]
+    ```
