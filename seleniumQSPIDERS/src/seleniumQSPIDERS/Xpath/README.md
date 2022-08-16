@@ -39,3 +39,8 @@ Xpath are of 2 types:-
 ```
     //tag[@AttributeName='AttributeValue']
 ```
+- Example:-
+```java
+//To find Login TextBox in Facebook login page.
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("bamlutuyde@vusra.com");
+```
