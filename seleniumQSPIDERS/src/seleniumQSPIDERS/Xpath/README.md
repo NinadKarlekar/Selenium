@@ -29,5 +29,13 @@ Xpath are of 2 types:-
 	driver.findElement(By.xpath("//div[1]/a[1]")).click();
 ```
 - There are several types of Relative Xpath
-1.  [AbsoluteXpath](#AbsoluteXpath)
-2.  [RelativeXpath](#RelativeXpath)
+1.  [Xpath_by_Attribute](#Xpath_by_Attribute)
+2.  [Xpath_by_TextFunction](#Xpath_by_TextFunction)
+
+
+### Xpath_by_Attribute
+- XPath expression select nodes or list of nodes on the basis of attributes like ID , Name, Classname, etc.
+- Syntax:-
+```
+    //tag[@AttributeName='AttributeValue']
+```
