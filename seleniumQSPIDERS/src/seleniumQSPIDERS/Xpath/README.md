@@ -71,13 +71,13 @@ Xpath are of 2 types:-
 ### Xpath_by_ContainsFunction
 - The contain feature has an ability to find the element with partial text.
 - Contains Method has 2 types:-
-    ##### Attributes
+    ##### 1. Attributes
     - Syntax:-
     ```
         //tag[contains(@AttributeName,'Partial Attribute Value')]
     ```
 
-    ##### Text
+    ##### 2. Text
     - Syntax:-
     ```
         //tag[contains(text(),'Partial Text Value')]
