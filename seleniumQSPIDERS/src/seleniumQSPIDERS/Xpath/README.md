@@ -96,3 +96,8 @@ Xpath are of 2 types:-
 
         driver.findElement(By.xpath("//a[contains(.,'Amazon')]")).click();
     ```
+*****************************************************
+
+### Xpath_by_Dependant_Independant
+- It is also called as **Xpath Traversing**.
+- In this type of Xpath there are elements which changes with respect to time
