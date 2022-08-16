@@ -24,7 +24,7 @@ public class Xpath_Attribute_FBLogOut {
 		Thread.sleep(8000);
 		driver.findElement(By.cssSelector("svg[aria-label='Your profile']")).click();
 		Thread.sleep(8000);
-		driver.findElement(By.xpath("//span[.='Log Out']")).click();
+		driver.findElement(By.xpath("//span[text()='Log Out']")).click();
 		Thread.sleep(8000);
 		driver.close();
 	}

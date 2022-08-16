@@ -41,6 +41,23 @@ Xpath are of 2 types:-
 ```
 - Example:-
 ```java
-//To find Login TextBox in Facebook login page.
-		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("bamlutuyde@vusra.com");
+    //To find Login TextBox in Facebook login page.
+	driver.findElement(By.xpath("//input[@type='text']")).sendKeys("bamlutuyde@vusra.com");
+```
+
+### Xpath_by_TextFunction
+- Syntax:-
+```
+    //tag[.='text Value']
+            **OR**
+    //tag[text()='text Value']
+            **OR**
+    //*[text()='text Value']
+```
+- Example:-
+```java
+    //To find password TextBox in Facebook login page.
+	driver.findElement(By.xpath("//span[.='Log Out']")).click();
+	driver.findElement(By.xpath("//span[text()='Log Out']")).click();
+	driver.findElement(By.xpath("//*[text()='Log Out']")).click();
 ```
