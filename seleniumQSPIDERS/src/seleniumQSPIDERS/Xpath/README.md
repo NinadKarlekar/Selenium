@@ -10,8 +10,9 @@ Xpath are of 2 types:-
 - We use `/` for child element.
 - We use `/..` for parent element.
 - We use `//` for desendnt element.
+- We use `[]` to specify index value.
 - eg. 
-    ```java
-		WebElement a1 = driver.findElement(By.xpath("./html/body/div[1]/a[1]"));
-		a1.click();
-    ```
+```java
+	WebElement a1 = driver.findElement(By.xpath("./html/body/div[1]/a[1]"));
+	a1.click();
+```
