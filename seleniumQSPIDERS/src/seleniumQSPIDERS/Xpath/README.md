@@ -76,13 +76,23 @@ Xpath are of 2 types:-
     ```
         //tag[contains(@AttributeName,'Partial Attribute Value')]
     ```
+    - Example:-
+    ```java
+    	driver.findElement(By.xpath("//a[contains(@href,'google')]")).click();
+    ```
 
     ##### 2. Text
     - Syntax:-
     ```
         //tag[contains(text(),'Partial Text Value')]
 
-                        OR
+                        **OR**
 
         //tag[contains(.,'Partial Text Value')]
+    ```
+    - Example:-
+    ```java
+    	driver.findElement(By.xpath("//a[contains(text(),'Facebook')]")).click();
+
+        driver.findElement(By.xpath("//a[contains(.,'Amazon')]")).click();
     ```
