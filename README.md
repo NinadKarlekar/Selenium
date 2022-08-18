@@ -250,7 +250,11 @@ Selenium Qspiders on eclipse with JAVA
     3.  [OtherAttribute](#OtherAttribute)
     4.  [Combining_Attribute](#Combining_Attribute)
 
-#### 1. idAttribute
+#### idAttribute
+- Syntax
+```java
+    tag[id = 'id_value']
+```
 - Example:-
 ```java
     //For password TextField in facebook login page
@@ -262,7 +266,11 @@ Selenium Qspiders on eclipse with JAVA
 - The `'#'`sign symbolizes the **'ID'** in CSS Selector.
 
 **********************************
-#### 2. classAttribute
+#### classAttribute
+- Syntax
+```java
+    tag[class = 'class_value']
+```
 - Example:-
 ```java
     //For password TextField in facebook login page
@@ -271,15 +279,22 @@ Selenium Qspiders on eclipse with JAVA
     driver.findElement(By.cssSelector("input.inputtext _55r1 _6luy _9npi"));
 ```
 - Where `inputtext _55r1 _6luy _9npi` is **'className'**.
-- The `'.'`dot sign symbolizes the **'class'** in CSS Selector.
+- The `.`dot sign symbolizes the **'class'** in CSS Selector.
 ************************************
-input#pass[placeholder='Password']
-****************************
+#### OtherAttribute
+- Apart from the id and class attributes, all other attributes present within the HTML tag of the element can also be used to locate web elements using the CSS Selectors.
+- Syntax:-
+```java
+    tag[Attribute_Name = 'Attribute_value']
+```
 - Example
 ```java
     WebElement loginTB = driver.findElement(By.cssSelector("input[type='text']"));
 	loginTB.sendKeys("bamlutuyde@vusra.com");
 ```
+- where `input` is `tag`.
+- `type` is `Attribute_Name`.
+- `text` is `Attribute_value`.
 ******************************************************
 ### xpath
 - Syntax:-
