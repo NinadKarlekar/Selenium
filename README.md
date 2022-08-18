@@ -159,7 +159,7 @@ Selenium Qspiders on eclipse with JAVA
 ```java
     List<WebElement> listOfElements = driver.findElements(By.xpath("//div"));
 ```
-- **Locators**
+## **Locators**
 1.  [id()](#id)
 2.  [name()](#name)
 3.  [className()](#className)
@@ -180,6 +180,7 @@ Selenium Qspiders on eclipse with JAVA
 ```java
     WebElement loginTB = driver.findElement(By.id("email"));
 ```
+- Where `email` is **'id'**.
 ******************************************************
 ### name
 - driver will locate an element by "name" attribute.
@@ -191,6 +192,7 @@ Selenium Qspiders on eclipse with JAVA
 ```java
     driver.findElement(By.name("login"));
 ```
+- Where `login` is **'name'**.
 ******************************************************
 ### className
 - Syntax:-
@@ -201,6 +203,7 @@ Selenium Qspiders on eclipse with JAVA
 ```java
     driver.findElement(By.className("inputtext _55r1 _6luy"));	
 ```
+- Where `inputtext _55r1 _6luy` is **'ClassName'**.
 ******************************************************
 ### tagName
 - Syntax:-
@@ -246,7 +249,7 @@ Selenium Qspiders on eclipse with JAVA
     3.  [OtherAttribute](#OtherAttribute)
     4.  [Combining_Attribute](#Combining_Attribute)
 
-#### id
+#### 1. id
 - Example:-
 ```java
     //For password TextField in facebook login page
