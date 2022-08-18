@@ -301,40 +301,40 @@ Selenium Qspiders on eclipse with JAVA
 
     1. Combine the **ID** and **other Attributes**
     - Syntax:-
-    ```java
-        tag#ID_Value[Other_AttributeName='Other_AttributeValue']
-    ```
+        ```java
+            tag#ID_Value[Other_AttributeName='Other_AttributeValue']
+        ```
     - Example
-    ```java
-        input#pass[placeholder='Password']
-    ```
+        ```java
+            input#pass[placeholder='Password']
+        ```
     - where
         - `input` is **'tagName'**
         - `pass` is **'ID_Value'**
         - `placeholder` is **'Other Attribute Name'**
         - `Password` is **'Other Attribute Value'**
-    ```java
-        driver.findElement(By.cssSelector("input#pass[placeholder='Password']"));
-    ```
+        ```java
+            driver.findElement(By.cssSelector("input#pass[placeholder='Password']"));
+        ```
 
 
     2. Combine the **Class** and **other Attributes**
     - Syntax:-
-    ```java
-        tag.Class_Value[Other_AttributeName='Other_AttributeValue']
-    ```
+        ```java
+            tag.Class_Value[Other_AttributeName='Other_AttributeValue']
+        ```
     - Example
-    ```java
-        input.inputtext _55r1 _6luy _9npi[placeholder='Password']
-    ```
+        ```java
+            input.inputtext _55r1 _6luy _9npi[placeholder='Password']
+        ```
     - where
         - `input` is **'tagName'**
         - `inputtext _55r1 _6luy _9npi` is **'class_Value'**
         - `placeholder` is **'Other Attribute Name'**
         - `Password` is **'Other Attribute Value'**   
-    ```java
-        driver.findElement(By.cssSelector("input.inputtext _55r1 _6luy _9npi[placeholder='Password']"));
-    ```
+        ```java
+            driver.findElement(By.cssSelector("input.inputtext _55r1 _6luy _9npi[placeholder='Password']"));
+        ```
 
 **************************************************
 ### xpath
