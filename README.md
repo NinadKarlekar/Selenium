@@ -212,8 +212,9 @@ Selenium Qspiders on eclipse with JAVA
 ```
 - Example
 ```java
-    WebElement loginBtn = driver.findElement(By.name("login"));
+   // WebElement loginBtn = driver.findElement(By.name("login"));
 ```
+- Where `login` is **'name'**.
 ******************************************************
 ### linkText
 - LinkText is helpful to find links in a webpage. It is the most efficient way of finding web elements containing links.
@@ -259,6 +260,11 @@ Selenium Qspiders on eclipse with JAVA
 ```
 - The `'#'`sign symbolizes the **'ID'** in CSS Selector.
 
+**********************************
+#### 2. class
+- Example:-
+
+************************************
 input#pass[placeholder='Password']
 ****************************
 - Example
