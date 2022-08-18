@@ -292,7 +292,7 @@ Selenium Qspiders on eclipse with JAVA
     WebElement loginTB = driver.findElement(By.cssSelector("input[type='text']"));
 	loginTB.sendKeys("bamlutuyde@vusra.com");
 ```
-- where `input` is `tag`.
+- Where `input` is `tag`.
 - `type` is `Attribute_Name`.
 - `text` is `Attribute_value`.
 ******************************************************
