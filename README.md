@@ -248,7 +248,7 @@ Selenium Qspiders on eclipse with JAVA
     1.  [id_attribute](#idAttribute)
     2.  [class_attribute](#classAttribute)
     3.  [OtherAttribute](#OtherAttribute)
-    4.  [Combining_Attribute](#Combining_Attribute)
+    4.  [CombiningAttribute](#CombiningAttribute)
 
 #### idAttribute
 - Syntax
@@ -296,6 +296,21 @@ Selenium Qspiders on eclipse with JAVA
 - `type` is `Attribute_Name`.
 - `text` is `Attribute_value`.
 ******************************************************
+#### CombiningAttribute
+- we combine multiple attributes to precisely locate any element present on the web page.
+
+    1. Combine the **ID** and **other Attributes**
+    Syntax:-
+    ```java
+            tag#ID_Value[Other_AttributeName='Other_AttributeValue']
+    ```
+
+
+
+input#pass[placeholder='Password']
+
+
+**************************************************
 ### xpath
 - Syntax:-
 ```java
