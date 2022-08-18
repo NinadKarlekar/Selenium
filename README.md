@@ -314,6 +314,7 @@ Selenium Qspiders on eclipse with JAVA
         - `placeholder` is **'Other Attribute Name'**
         - `Password` is **'Other Attribute Value'**
 
+
     2. Combine the **Class** and **other Attributes**
     - Syntax:-
     ```java
