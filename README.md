@@ -139,24 +139,156 @@ Selenium Qspiders on eclipse with JAVA
 
 *********************************
 ## findElement
- 
+- A command used to uniquely identify a web element within the web page.
+- Returns the first matching web element if multiple web elements are discovered by the locator
+- Throws NoSuchElementException if the element is not found
+- Detects a unique web element
+
+
+## findElements
+- A command used to identify a list of web elements within the web page.
+- Returns a list of multiple matching web elements
+- Returns an empty list if no matching element is found
+- Returns a collection of matching elements
+- findElement() and findElements() have 8 locators
+- Syntax for findElements()
+```java
+    List<WebElement> elementName = driver.findElements(By.LocatorStrategy("LocatorValue"));
+```
+- Example
+```java
+    List<WebElement> listOfElements = driver.findElements(By.xpath("//div"));
+```
+- **Locators**
+1.  [id()](#id)
+2.  [name()](#name)
+3.  [className()](#className)
+4.  [tagName()](#tagName)
+5.  [linkText()](#linkText)
+6.  [partialLinkText()](#partialLinkText)
+7.  [cssSelector()](#cssSelector)
+8.  [xpath()](#xpath)
+
+### id
+- ID is uniquely defined for each element 
+- driver will locate an element by "id" attribute
+- Syntax:-
+```java
+    driver.findElement(By.id(" "));
+```
+- Example
+```java
+    WebElement loginTB = driver.findElement(By.id("email"));
+```
+******************************************************
+### name
+- driver will locate an element by "name" attribute.
+- Syntax:-
+```java
+    driver.findElement(By.name(" "));
+```
+- Example
+```java
+    driver.findElement(By.name("login"));
+```
+******************************************************
+### className
+- Syntax:-
+```java
+    driver.findElement(By.className(" "));
+```
+- Example
+```java
+    driver.findElement(By.className("inputtext _55r1 _6luy"));	
+```
+******************************************************
+### tagName
+- Syntax:-
+```java
+    driver.findElement(By.tagName(" "));
+```
+- Example
+```java
+    WebElement loginBtn = driver.findElement(By.name("login"));
+```
+******************************************************
+### linkText
+- LinkText is helpful to find links in a webpage. It is the most efficient way of finding web elements containing links.
+- Syntax:-
+```java
+    driver.findElement(By.linkText(" "));
+```
+- Example
+```java
+    WebElement loginBtn = driver.findElement(By.name("login"));
+```
+******************************************************
+### partialLinkText
+- Syntax:-
+```java
+    driver.findElement(By.partialLinkText(" "));
+```
+- Example
+```java
+    WebElement loginBtn = driver.findElement(By.name("login"));
+```
+******************************************************
+### cssSelector
+- CSS Selectors are one of the locator strategies offered by Selenium to identify the web elements. 
+- The CSS Selectors mainly use the character sequence pattern, which identifies the web elements based on their HTML structure.
+- Syntax:-
+```java
+    tag[Attribute_Name = 'Attribute_value']
+```
+- CSS Selectors can be created based on the following ways:
+    1.  [id](#id)
+    2.  [class](#class)
+    3.  [OtherAttribute](#OtherAttribute)
+    4.  [Combining_Attribute](#Combining_Attribute)
+
+#### id
+- Example:-
+```java
+    //For password TextField in facebook login page
+    driver.findElement(By.cssSelector("input[id='pass']"));
+                        //OR
+    driver.findElement(By.cssSelector("input#pass"));
+```
+- The `'#'`sign symbolizes the **'ID'** in CSS Selector.
+
+input#pass[placeholder='Password']
+****************************
+- Example
+```java
+    WebElement loginTB = driver.findElement(By.cssSelector("input[type='text']"));
+	loginTB.sendKeys("bamlutuyde@vusra.com");
+```
+******************************************************
+### xpath
+- Syntax:-
+```java
+    driver.findElement(By.xpath(" "));
+```
+******************************************************
 ### Fb_login_with_findElement_by_id_and_name
 
 
+driver.findElement(By.className(" "));
 
+driver.findElement(By.tagName(" "));
+
+driver.findElement(By.linkText(" "));
 ********************************************************
 ## Fb_login_with_findElement_by_cssSelector
 - tag[attribute name='attribute value']
 
-![cssselector](https://user-images.githubusercontent.com/88243315/ 183301536-42550764-13a1-45dc-aafd-32a8a36e79dc.png)
+
 
 
 ***************************************************************
 ## link_access_with_findElement_by_linktext
 
 
-![linktext](https://user-images.githubusercontent.com/88243315/ 183308713-f75f6e4d-28dc-4ce8-829c-d99e6d91a96a.png)
- 
  
 ***************************************************************
 
