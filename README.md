@@ -245,12 +245,12 @@ Selenium Qspiders on eclipse with JAVA
     tag[Attribute_Name = 'Attribute_value']
 ```
 - CSS Selectors can be created based on the following ways:
-    1.  [id_attribute](#id_attribute)
-    2.  [class_attribute](#class_attribute)
+    1.  [id_attribute](#idAttribute)
+    2.  [class_attribute](#classAttribute)
     3.  [OtherAttribute](#OtherAttribute)
     4.  [Combining_Attribute](#Combining_Attribute)
 
-#### 1. id_attribute
+#### 1. idAttribute
 - Example:-
 ```java
     //For password TextField in facebook login page
@@ -262,7 +262,7 @@ Selenium Qspiders on eclipse with JAVA
 - The `'#'`sign symbolizes the **'ID'** in CSS Selector.
 
 **********************************
-#### 2. class_attribute
+#### 2. classAttribute
 - Example:-
 ```java
     //For password TextField in facebook login page
