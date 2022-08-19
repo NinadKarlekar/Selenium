@@ -109,7 +109,16 @@ Xpath are of 2 types:-
 - Steps:-
     1. Write xpath for independant element.
     2. Trverse towards dependant element.
-
+- In AbsoluteXpath syntax starts from `.`
+- We use `.` for current html program / directory.
+- We use `/` for child element.
+- We use `/..` for parent element.
+- We use `//` for desendnt element(child, grand-child, great-grand-child).
+- We use `[]` to specify index value.In html index value starts from *1*.
+- Example
+```java
+    driver.findElement(By.xpath("//a[.='JAVA']/../../td[2]/a")).click();
+```
 ************************************************
 
 ### Xpath_by_Group_Index
