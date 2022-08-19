@@ -14,7 +14,7 @@ Xpath are of 2 types:-
 - We use `.` for current html program / directory.
 - We use `/` for child element.
 - We use `/..` for parent element.
-- We use `//` for desendnt element(child, grand-child, great f=grand-child).
+- We use `//` for desendnt element(child, grand-child, great-grand-child).
 - We use `[]` to specify index value.In html index value starts from *1*.
 - eg. 
 ```java
