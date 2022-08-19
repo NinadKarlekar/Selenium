@@ -2,8 +2,11 @@
 Xpath are of 2 types:-
 1.  [AbsoluteXpath](#AbsoluteXpath)
 2.  [RelativeXpath](#RelativeXpath)
-    1.  [AbsoluteXpath](#AbsoluteXpath)
-    2.  [RelativeXpath](#RelativeXpath)
+    1.  [Xpath_by_Attribute](#Xpath_by_Attribute)
+    2.  [Xpath_by_TextFunction](#Xpath_by_TextFunction)
+    2.  [Xpath_by_ContainsFunction](#Xpath_by_ContainsFunction)
+    2.  [Xpath_by_Dependant_Independant](#Xpath_by_Dependant_Independant)
+    2.  [Xpath_by_TextFunction](#Xpath_by_TextFunction)
 
 
 ## AbsoluteXpath
@@ -100,4 +103,19 @@ Xpath are of 2 types:-
 
 ### Xpath_by_Dependant_Independant
 - It is also called as **Xpath Traversing**.
-- In this type of Xpath there are elements which changes with respect to time
+- In this type of Xpath there are elements which changes with respect to time.
+- Steps:-
+    1. Write xpath for independant element.
+    2. Trverse towards dependant element.
+
+### Xpath_by_Group_Index
+- In this type of xpath, we specify the xpath within **common brackets** `()`.
+- By doing this an xpath array is generated starting with index `1`.
+- Unique indexes are given for every matching element.
+- At end of xpath we specify the index value within **Square Brackets** `[]`.
+- Syntax:-
+```
+    (//tagName)[IndexValue];
+```
+- Example:-
+
