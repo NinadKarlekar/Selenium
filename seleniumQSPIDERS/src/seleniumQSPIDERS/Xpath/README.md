@@ -77,30 +77,30 @@ Xpath are of 2 types:-
 - The contain feature has an ability to find the element with partial text.
 - Contains Method has 2 types:-
     ##### 1. Attributes
-        - Syntax:-
-        ```
-            //tag[contains(@AttributeName,'Partial Attribute Value')]
-        ```
-        - Example:-
-        ```java
-            driver.findElement(By.xpath("//a[contains(@href,'google')]")).click();
-        ```
+    - Syntax:-
+    ```
+        //tag[contains(@AttributeName,'Partial Attribute Value')]
+    ```
+    - Example:-
+    ```java
+    	driver.findElement(By.xpath("//a[contains(@href,'google')]")).click();
+    ```
 
     ##### 2. Text
-        - Syntax:-
-        ```
-            //tag[contains(text(),'Partial Text Value')]
+    - Syntax:-
+    ```
+        //tag[contains(text(),'Partial Text Value')]
 
-                            **OR**
+                        **OR**
 
-            //tag[contains(.,'Partial Text Value')]
-        ```
-        - Example:-
-        ```java
-            driver.findElement(By.xpath("//a[contains(text(),'Facebook')]")).click();
+        //tag[contains(.,'Partial Text Value')]
+    ```
+    - Example:-
+    ```java
+        driver.findElement(By.xpath("//a[contains(text(),'Facebook')]")).click();
 
-            driver.findElement(By.xpath("//a[contains(.,'Amazon')]")).click();
-        ```
+        driver.findElement(By.xpath("//a[contains(.,'Amazon')]")).click();
+    ```
 *****************************************************
 
 ### Xpath_by_Dependant_Independant
