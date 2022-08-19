@@ -1,10 +1,10 @@
-package seleniumQSPIDERS;
+package seleniumQSPIDERS.Xpath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class RelativeXpath1 {
+public class Xpath_Traversing {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	}
@@ -13,15 +13,13 @@ public class RelativeXpath1 {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
-		// link.html used here
-		driver.get("file:///F:/QSPIDERS/Selenium%20GIT/Selenium/seleniumQSPIDERS/src/seleniumQSPIDERS/link.html");
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//div[1]/a[1]")).click();
-		Thread.sleep(3000);
+		driver.get(
+				"file:///F:/QSPIDERS/Selenium%20GIT/Selenium/seleniumQSPIDERS/src/seleniumQSPIDERS/Xpath/xpathTraversing.html");
+
+		driver.findElement(By.xpath("//a[.='JAVA']/../../td[2]/a")).click();
 		driver.navigate().back();
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//input[2]")).sendKeys("abcd");
-		Thread.sleep(3000);
+		driver.findElement(By.xpath("//a[.='SQL']/../../td[2]/a")).click();
+		driver.navigate().back();
 		driver.close();
 	}
 }
