@@ -212,7 +212,7 @@ Selenium Qspiders on eclipse with JAVA
 ```
 - Example
 ```java
-   // WebElement loginBtn = driver.findElement(By.name("login"));
+    WebElement loginBtn = driver.findElement(By.name("login"));
 ```
 - Where `login` is **'name'**.
 ******************************************************
