@@ -22,11 +22,9 @@ public class Custom_Wait {
 				driver.findElement(By.id("logoutLink")).click();
 				break;
 			} catch (Exception e) {
-				System.out.println("Trying for" + (n++) + " time");
+				System.out.println("Trying for " + (n++) + " time");
 			}
-			
 		}
 		driver.close();
-
 	}
 }

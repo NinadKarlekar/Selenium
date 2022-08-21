@@ -10,7 +10,6 @@ public class Implicit_Wait {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	}
-
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
@@ -20,7 +19,6 @@ public class Implicit_Wait {
 		driver.findElement(By.xpath("//input[@name='pwd']")).sendKeys("manager");
 		driver.findElement(By.xpath("//a[.='Login ']")).click();
 		driver.findElement(By.id("logoutLink")).click();
-		driver.close();
-		
+		driver.close();		
 	}
 }
