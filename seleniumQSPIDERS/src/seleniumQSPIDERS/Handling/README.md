@@ -19,6 +19,13 @@ Xpath are of 2 types:-
     List<WebElement> allautosugg = driver.findElements(By.xpath("//span[contains(.,'ava')]"));
     System.out.println("total number of auto suggetions " + allautosugg.size());
 ```
+- Scenario:-
+    1. Open browser and go to google.
+    2. Type java in SearchBox
+    3. Count number of autosuggetions.
+    4. print all auto-suggetions.
+    5. click on 4th autosuggetion.
+    
 ![google autosugg](https://user-images.githubusercontent.com/88243315/186228748-f3bc51b3-1330-45e5-8747-05258845eace.png)
 
 ********************************************************************************
