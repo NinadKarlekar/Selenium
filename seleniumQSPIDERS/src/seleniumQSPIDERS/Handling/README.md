@@ -28,7 +28,7 @@ Xpath are of 2 types:-
     ![image](https://user-images.githubusercontent.com/88243315/186227814-0fdb51df-eab7-482b-b10c-16d7858de84f.png)
 
 
-    2. **Prompt Alert:-** This Prompt Alert asks some input from the user and Selenium webdriver can enter the text using sendkeys(” input…. “).
+    2. **Prompt Alert:-** This Prompt Alert asks some input from the user and Selenium webdriver can enter the text using sendkeys(” input….“).
     ![image](https://user-images.githubusercontent.com/88243315/186227926-2274e28d-c258-4ec0-9072-90fd3c4b3ed0.png)
 
 
