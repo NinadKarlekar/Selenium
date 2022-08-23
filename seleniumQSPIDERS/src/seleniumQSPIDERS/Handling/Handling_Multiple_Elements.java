@@ -24,5 +24,4 @@ public class Handling_Multiple_Elements {
 		allautosugg.get(3).click();
 		driver.close();
 	}
-
 }
