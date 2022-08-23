@@ -11,6 +11,8 @@
 **********************************************************************
 ## Implicit_Wait
 - The Implicit Wait in Selenium is used to tell the web driver to wait for a certain amount of time before it throws a “No Such Element Exception”.
+![image](https://user-images.githubusercontent.com/88243315/186238724-6aa49eb8-5f8e-4915-8a62-b50601a233c7.png)
+
 - Syntax:-
 ```java
     driver.manage().timeouts().implicitlyWait(TimeUnit.SECONDS);
