@@ -50,3 +50,7 @@ Xpath are of 2 types:-
     ```java
         driver.switchTo().alert().sendKeys("Text");
     ```
+
+**************************************************************
+# HandlingListItems
+
