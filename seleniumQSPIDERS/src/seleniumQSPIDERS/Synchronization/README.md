@@ -24,6 +24,8 @@
 *****************************************************************
 ## Explicit_Wait
 
+![image](https://user-images.githubusercontent.com/88243315/186239686-294a8cd8-687d-4496-ac01-2b536844166c.png)
+
 - Syntax:-
 ```java
     WebDriverWait wait = new WebDriverWait(WebDriverRefrence,TimeOut);
