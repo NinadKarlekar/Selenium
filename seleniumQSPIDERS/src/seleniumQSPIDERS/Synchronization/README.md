@@ -21,6 +21,7 @@
 ```java
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 ```
+- The above statment should be written immediatly after opening browser.
 *****************************************************************
 ## Explicit_Wait
 
