@@ -1,8 +1,8 @@
 # Handling Elements
 Xpath are of 2 types:-
 1.  [Handling_Multiple_Elements](#Handling_Multiple_Elements)
-1.  [Handling_Popups](#Handling_Popups)
-1.  [HandlingListItems](#HandlingListItems)
+2.  [Handling_Alerts](#Handling_Alerts)
+3.  [HandlingListItems](#HandlingListItems)
 
 1.  [Handling_Multiple_Elements](#Handling_Multiple_Elements)
 1.  [Handling_Multiple_Elements](#Handling_Multiple_Elements)
@@ -20,7 +20,16 @@ Xpath are of 2 types:-
     System.out.println("total number of auto suggetions " + allautosugg.size());
 ```
 ********************************************************************************
-# Handling_Popups
+# Handling_Alerts
+- An Alert in Selenium is a small message box which appears on screen to give the user some information or notification. 
+- It notifies the user with some specific information or error, asks for permission to perform certain tasks and it also provides warning messages as well.
+- Here are few alert in Selenium types:-
+    1. **Simple alert:-** The simple alert class in Selenium displays some information or warning on the screen.
+    
+
+    2. **Prompt Alert:-** This Prompt Alert asks some input from the user and Selenium webdriver can enter the text using sendkeys(” input…. “).
+
+    3. **Confirmation Alert:-** This confirmation alert asks permission to do some type of operation.
 - There are 4 ways to handle Alert 
     1.  **dismiss():-** To click on the **'Cancel'** button of the alert.
     ```java
