@@ -58,8 +58,12 @@ Xpath are of 2 types:-
     ```java
         driver.switchTo().alert().sendKeys("Text");
     ```
+ ![alerts](https://user-images.githubusercontent.com/88243315/186230279-baca9bb2-da0d-4b05-8447-7c1c5804f2e9.png)
+
 
 **************************************************************
 # HandlingListItems
 
+
+![listitems](https://user-images.githubusercontent.com/88243315/186230224-d988b5c2-d576-45e0-b1cc-ca2b3a98300d.png)
 
