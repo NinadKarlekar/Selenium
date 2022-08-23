@@ -19,6 +19,8 @@ Xpath are of 2 types:-
     List<WebElement> allautosugg = driver.findElements(By.xpath("//span[contains(.,'ava')]"));
     System.out.println("total number of auto suggetions " + allautosugg.size());
 ```
+![google autosugg](https://user-images.githubusercontent.com/88243315/186228748-f3bc51b3-1330-45e5-8747-05258845eace.png)
+
 ********************************************************************************
 # Handling_Alerts
 - An Alert in Selenium is a small message box which appears on screen to give the user some information or notification. 
@@ -56,3 +58,4 @@ Xpath are of 2 types:-
     ```java
         driver.switchTo().alert().sendKeys("Text");
     ```
+    
