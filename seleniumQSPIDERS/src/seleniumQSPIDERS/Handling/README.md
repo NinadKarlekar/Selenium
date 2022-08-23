@@ -25,7 +25,7 @@ Xpath are of 2 types:-
     3. Count number of autosuggetions.
     4. print all auto-suggetions.
     5. click on 4th autosuggetion.
-    
+    6. Close the browser
 ![google autosugg](https://user-images.githubusercontent.com/88243315/186228748-f3bc51b3-1330-45e5-8747-05258845eace.png)
 
 ********************************************************************************
