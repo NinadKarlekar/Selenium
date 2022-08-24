@@ -7,7 +7,7 @@
 - Open browser and go to ```https://demo.actitime.com/login.do```
 - Type username as ```admin``` and password as ```manager```.
 - Click on <ins>login</ins> button.
-- Click on logout button.
+- Click on <ins>logout</ins> button.
 **********************************************************************
 ## Implicit_Wait
 - The Implicit Wait in Selenium is used to tell the web driver to wait for a certain amount of time before it throws a “No Such Element Exception”.
