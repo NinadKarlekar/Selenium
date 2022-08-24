@@ -6,7 +6,7 @@
 ## Scenario
 - Open browser and go to ```https://demo.actitime.com/login.do```
 - Type username as ```admin``` and password as ```manager```.
-- Click on <u>login</u> button.
+- Click on <ins>login</ins> button.
 - Click on logout button.
 **********************************************************************
 ## Implicit_Wait
