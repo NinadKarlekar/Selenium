@@ -42,7 +42,7 @@
 
 - Syntax:-
 ```java
-    int n = 1;
+	int n = 1;
 		while (true) {
 			try {
 				driver.findElement(By.id(" ")).click();
@@ -54,7 +54,7 @@
 ```
 - Example:-
 ```java
-    int n = 1;
+	int n = 1;
 		while (true) {
 			try {
 				driver.findElement(By.id("logoutLink")).click();

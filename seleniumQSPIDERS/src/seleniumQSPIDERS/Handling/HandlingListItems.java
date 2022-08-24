@@ -36,8 +36,9 @@ public class HandlingListItems {
 		Thread.sleep(1000);
 
 		// OR
-
 		// s1.deselectAll();
+		
+		
 		Thread.sleep(5000);
 		driver.close();
 	}
