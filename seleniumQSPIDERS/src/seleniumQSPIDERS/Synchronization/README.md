@@ -29,11 +29,13 @@
 
 - Syntax:-
 ```java
+	WebDriver driver = new ChromeDriver();
     WebDriverWait wait = new WebDriverWait(WebDriverRefrence,TimeOut);
 ```
 - Example:-
 ```java
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+    WebDriver driver = new ChromeDriver();
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 ```
 *****************************************************************
 ## Custom_Wait
