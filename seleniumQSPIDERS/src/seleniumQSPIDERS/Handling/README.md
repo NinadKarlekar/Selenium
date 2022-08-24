@@ -70,7 +70,55 @@ Xpath are of 2 types:-
 
 **************************************************************
 # HandlingListItems
+- List items can be handled by following ways:-
+    1. selectByIndex()
+    - Example
+    ```java
+        s1 = new Select(driver.findElement(By.id("taj")));
+        s1.selectByIndex(0);
+    ```
 
+    2. selectByValue()
+    - Example
+    ```java
+        s1 = new Select(driver.findElement(By.id("taj")));
+        s1.selectByValue("vt");
+    ```
+
+    3. selectByVisibleText()
+    - Example
+    ```java
+        s1 = new Select(driver.findElement(By.id("taj")));
+        s1.selectByVisibleText("Cake");
+    ```
+    
+    4. deselectByIndex()
+    - Example
+    ```java
+        s1 = new Select(driver.findElement(By.id("taj")));
+        s1.deselectByIndex(0);
+    ```
+    
+    5. deselectByValue()
+    - Example
+    ```java
+        s1 = new Select(driver.findElement(By.id("taj")));
+        s1.deselectByValue("vt");
+    ```
+    
+    6. deselectByVisibleText()
+    - Example
+    ```java
+        s1 = new Select(driver.findElement(By.id("taj")));
+        s1.deselectByVisibleText("Cake");
+    ```
+    
+    7. deselectAll()
+    - Example
+    ```java
+        s1 = new Select(driver.findElement(By.id("taj")));
+        s1.deselectAll();
+    ```
 
 ![listitems](https://user-images.githubusercontent.com/88243315/186230224-d988b5c2-d576-45e0-b1cc-ca2b3a98300d.png)
 
