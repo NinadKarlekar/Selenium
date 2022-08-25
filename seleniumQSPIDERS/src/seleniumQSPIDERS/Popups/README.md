@@ -41,6 +41,9 @@
     ```java
         driver.switchTo().alert().sendKeys("Text");
     ```
+    
+  ![image](https://user-images.githubusercontent.com/88243315/186738195-79baa6f0-346d-4a04-ab4c-1d68dd8012a0.png)
+
  ![alerts](https://user-images.githubusercontent.com/88243315/186230279-baca9bb2-da0d-4b05-8447-7c1c5804f2e9.png)
 
 
