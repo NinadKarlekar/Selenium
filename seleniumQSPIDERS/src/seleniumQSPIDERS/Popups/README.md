@@ -16,8 +16,8 @@
 
 - JavaScript Popup ia also called as **Alert Popups ,Confirmation Popups**.
 - Characteristics
-    1. we cannot inspect this popup.
-    2. we cannot move this popup.
+    1. We cannot inspect this popup.
+    2. We cannot move this popup.
     3. This popup is located exactly below the address bar and in center of the page.
     4. It contains `OK` button(Alert) OR `OK` and `Cancel` button(Confirm). 
 - There are 4 ways to handle JavaScript Popup:-
