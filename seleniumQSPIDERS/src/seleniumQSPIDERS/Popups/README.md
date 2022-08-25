@@ -41,7 +41,7 @@
     ```java
         driver.switchTo().alert().sendKeys("Text");
     ```
-- Example:-
+- Example:- (actiTime)
   ![image](https://user-images.githubusercontent.com/88243315/186738195-79baa6f0-346d-4a04-ab4c-1d68dd8012a0.png)
 
  ![alerts](https://user-images.githubusercontent.com/88243315/186230279-baca9bb2-da0d-4b05-8447-7c1c5804f2e9.png)
@@ -51,10 +51,16 @@
 
 # Hidden_Divison_Popup
 
+
+
+- Example :-(Flipkart)
+
+![image](https://user-images.githubusercontent.com/88243315/186739492-11c20d2b-5a14-4531-8dd8-cb0072370299.png)
+
+
 ![hiddendiv](https://user-images.githubusercontent.com/88243315/186739659-2c09ac76-3365-4285-ae22-f516927b3ffd.png)
 
 
-![image](https://user-images.githubusercontent.com/88243315/186739492-11c20d2b-5a14-4531-8dd8-cb0072370299.png)
 
 **************************************************************
 # Child_Browser_Popup
