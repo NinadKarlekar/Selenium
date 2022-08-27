@@ -21,14 +21,17 @@ public class HiddendivPopup_CareInsurance_Automate {
 		driver.findElement(By.xpath("//input[@placeholder='Policy Number']")).sendKeys("57124765");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@placeholder='DOB']")).click();
+		//Click and Select Month from List (March)
 		WebElement monthTB = driver.findElement(By.xpath("//select[@class='ui-datepicker-month']"));
 		Select s1 = new Select(monthTB);
 		s1.selectByVisibleText("Mar");
 		Thread.sleep(2000);
+		//Click and Select Year from List (2002)
 		WebElement yearTB = driver.findElement(By.xpath("//select[@class='ui-datepicker-year']"));
 		Select s2 = new Select(yearTB);
 		s2.selectByVisibleText("2002");
 		Thread.sleep(2000);
+		//Click to Select date (15)
 		driver.findElement(By.xpath("//a[.='15']")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//input[@placeholder='Contact Number']")).sendKeys("9988776655");
