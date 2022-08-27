@@ -136,6 +136,15 @@ Xpath are of 2 types:-
     driver.findElement(By.xpath("(//a)[1]")).click(); //For Link 1 a[1] Google
 ```
 
+![groupbyhtml](https://user-images.githubusercontent.com/88243315/187042750-81e3a6f5-e93b-43d1-9283-84d7fb593666.png)
+
+
+![groupbyindex](https://user-images.githubusercontent.com/88243315/187042759-7efa52be-e7d0-4bfe-88b0-110872be8e17.png)
+
+
+
+![image](https://user-images.githubusercontent.com/88243315/187042457-4ba789d2-4c0b-4926-8d0b-7b9849fedd0e.png)
+
 ******************************************************
 ### Xpath_by_AxesTag
 - Different XPath Axes Used In Selenium Testing:-
