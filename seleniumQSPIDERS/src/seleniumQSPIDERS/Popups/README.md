@@ -52,9 +52,15 @@
 
 # Hidden_Divison_Popup
 
+- Characteristics:-
+    1. We can inspect this pop-up.
+    2. We can not move the pop-up.
 
+- Solution:-
+    1. We can handle this pop-up using `findElement()` itself.
+    2. **Calender pop-up** is best example of **Hidden division pop-up**.
 
-- Example :-(Flipkart)
+- Example 1:-(Flipkart)
 
 ![image](https://user-images.githubusercontent.com/88243315/186739492-11c20d2b-5a14-4531-8dd8-cb0072370299.png)
 
