@@ -67,6 +67,14 @@
 
 ![hiddendiv](https://user-images.githubusercontent.com/88243315/186739659-2c09ac76-3365-4285-ae22-f516927b3ffd.png)
 
+- Example 2:-(Relience insurance)
+
+    - Scenario
+        1. Open the browser.
+        2. Go to renew page of reliance Health Insurance `https://www.careinsurance.com/rhicl/proposalcp/renew/index-care`
+        3. Enter policy number
+        4. Select date of birth(15 mar 2002).
+        5. Specify the **contact number** and click on **renew**.
 
 ![image](https://user-images.githubusercontent.com/88243315/187043787-4064011b-3043-4823-a678-b1ddf3e40213.png)
 
