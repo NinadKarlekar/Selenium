@@ -20,6 +20,7 @@
     2. We cannot move this popup.
     3. This popup is located exactly below the address bar and in center of the page.
     4. It contains `OK` button(Alert) OR `OK` and `Cancel` button(Confirm). 
+    
 - There are 4 ways to handle JavaScript Popup:-
 
     1.  **dismiss():-** To click on the **'Cancel'** button of the alert.
@@ -84,8 +85,13 @@
 
 **************************************************************
 # Child_Browser_Popup
+- Characteristics
+    1. We can inspect this pop-up.
+    2. We can move this pop-up.
+    3. It will have minimize and maximize button
 
-
+- Solution:-
+    - We can handle this using **getWindowHandle()** ,**getWindowHandles()** and **switchTo()** 
 **************************************************************
 # Notification_Popup
 
