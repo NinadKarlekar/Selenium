@@ -136,7 +136,8 @@ Xpath are of 2 types:-
     driver.findElement(By.xpath("(//a)[1]")).click(); //For Link 1 a[1] Google
 ```
 
-![groupbyhtml](https://user-images.githubusercontent.com/88243315/187042750-81e3a6f5-e93b-43d1-9283-84d7fb593666.png)
+![groupbyhtml](https://user-images.githubusercontent.com/88243315/187042829-bfb2ee35-cd70-45f8-beb6-1abebf48f1ad.png)
+
 
 
 ![groupbyindex](https://user-images.githubusercontent.com/88243315/187042759-7efa52be-e7d0-4bfe-88b0-110872be8e17.png)
