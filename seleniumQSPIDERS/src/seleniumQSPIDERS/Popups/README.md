@@ -94,12 +94,39 @@
     - We can handle this using **getWindowHandle()** ,**getWindowHandles()** and **switchTo()** 
 **************************************************************
 # Notification_Popup
+- Characteristics
+    1. We can not inspect this pop-up.
+    2. We can not move this pop-up.
+    3. This popup is licated exatly **below the address bar** & **towards left hand side**.
+    4. The popup contains `allow` button & `block` button.
 
+- Solution:-
+    1. We can handle this pop-up by changing the settings in browser.
+    2. we need to create an object for chromeoptions class.
+    3. Using its refrence variable, we call `addArguments();`. We pass the command **`--disable-notifications`**.
+    4. While opening the browser pass the chromeoptions refrence variable as an argument inside the chromedriver constructor.
+
+- Syntax:-
+```java
+    ChromeOptions option = new ChromeOptions();
+	option.addArguments("--disable-notifications");
+	WebDriver driver = new ChromeDriver(option);
+```
+
+- Example:-
+![Notification_Popup](../../../Images/Notification_Popup.png)
 
 **************************************************************
 # File_Upload_Popup
+- Characteristics:-
+    1. We can not inspect this pop-up.
+    2. We can move this pop-up.
+    3. This pop-up contains `open` button and `cancel` button. 
 
-
+- Solution:-
+    1. To handle this pop-up, the file to be uploaded must be present inside the java project.
+    2. We need to create an object for **file** class and pass the path of the uploading file as an argument.
+    3. We fetch the absolute path of the file & do **sendKeys()** directly on button. 
 **************************************************************
 # File_Download_Popup
 
