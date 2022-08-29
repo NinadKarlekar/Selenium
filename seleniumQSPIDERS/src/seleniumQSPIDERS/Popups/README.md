@@ -92,9 +92,10 @@
 
 - **Solution:-**
     - We can handle this using **getWindowHandle()** ,**getWindowHandles()** and **switchTo()** 
-
+    
+![Child_Browser_Popup](../../../Images/Child_Browser_Popup.png)
 - **Example:-**
-![Child_Browser_Popup](../../../Images/Screenshot_Child_Browser_Popup%20(1049).png)
+![Child_Browser_Popup_eg](../../../Images/Screenshot_Child_Browser_Popup%20(1049).png)
 **************************************************************
 # Notification_Popup
 - **Characteristics**
