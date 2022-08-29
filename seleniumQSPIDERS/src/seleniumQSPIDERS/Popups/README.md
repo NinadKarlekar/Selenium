@@ -19,7 +19,7 @@
     1. We cannot inspect this popup.
     2. We cannot move this popup.
     3. This popup is located exactly below the address bar and in center of the page.
-    4. It contains `OK` button(Alert) OR `OK` and `Cancel` button(Confirm). 
+    4. It contains **`OK`** button(Alert) OR **`OK`** and **`Cancel`** button(Confirm). 
     
 - There are 4 ways to handle JavaScript Popup:-
 
@@ -58,7 +58,7 @@
     2. We can not move the pop-up.
 
 - **Solution:-**
-    1. We can handle this pop-up using `findElement()` itself.
+    1. We can handle this pop-up using **`findElement()`** itself.
     2. **Calender pop-up** is best example of **Hidden division pop-up**.
 
 - **Example 1:-(Flipkart)**
@@ -92,6 +92,9 @@
 
 - **Solution:-**
     - We can handle this using **getWindowHandle()** ,**getWindowHandles()** and **switchTo()** 
+
+- **Example:-**
+![Child_Browser_Popup](../../../Images/Screenshot_Child_Browser_Popup%20(1049).png)
 **************************************************************
 # Notification_Popup
 - **Characteristics**
@@ -150,7 +153,7 @@
     1. We handle this pop-up using Robot class.
 
 - **Example:**
-
+![File_Download_Popup](../../../Images/File_Download_Popup.png)
 
 **************************************************************
 # Print_Popup
@@ -159,9 +162,12 @@
     2. We can not move this pop-up.
     3. This popup contains **`print`** button & **`cancel`** button
 - **Solution:-**
-
+    1. We handle this pop-up using Robot class.
 - **Example:**
 
+![ss_Print_Popup](../../../Images/Screenshot_Print_Popup%20(1048).png)
+
+![Print_Popup](../../../Images/Print_Popup.png)
 
 **************************************************************
 
