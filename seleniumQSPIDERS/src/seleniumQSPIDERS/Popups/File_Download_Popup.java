@@ -22,7 +22,6 @@ public class File_Download_Popup {
 		r1.keyPress(KeyEvent.VK_CONTROL);
 		r1.keyPress(KeyEvent.VK_S);
 		r1.keyRelease(KeyEvent.VK_CONTROL);
-		
 		Thread.sleep(3000);
 		r1.keyPress(KeyEvent.VK_ENTER);
 		Thread.sleep(3000);

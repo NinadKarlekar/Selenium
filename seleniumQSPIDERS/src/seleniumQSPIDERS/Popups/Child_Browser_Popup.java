@@ -24,12 +24,10 @@ public class Child_Browser_Popup {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[@id='windowButton']")).click();
 		Set<String> allwindowhandle = driver.getWindowHandles();
-		for(String v:allwindowhandle)
-		{
-			if(v.equals(ParentWindowHandle)) {
-				
-			}
-			else {
+		for (String v : allwindowhandle) {
+			if (v.equals(ParentWindowHandle)) {
+
+			} else {
 				driver.switchTo().window(v).close();
 				Thread.sleep(2000);
 			}

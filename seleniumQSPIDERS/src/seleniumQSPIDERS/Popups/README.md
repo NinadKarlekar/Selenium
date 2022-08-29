@@ -98,7 +98,7 @@
     1. We can not inspect this pop-up.
     2. We can not move this pop-up.
     3. This popup is licated exatly **below the address bar** & **towards left hand side**.
-    4. The popup contains `allow` button & `block` button.
+    4. The popup contains **`allow`** button & **`block`** button.
 
 - **Solution:-**
     1. We can handle this pop-up by changing the settings in browser.
@@ -117,11 +117,13 @@
 ![Notification_Popup](../../../Images/Notification_Popup.png)
 
 **************************************************************
+
+
 # File_Upload_Popup
 - **Characteristics:-**
     1. We can not inspect this pop-up.
     2. We can move this pop-up.
-    3. This pop-up contains `open` button and `cancel` button. 
+    3. This pop-up contains **`open`** button and **`cancel`** button. 
 
 - **Solution:-**
     1. To handle this pop-up, the file to be uploaded must be present inside the java project.
@@ -136,11 +138,30 @@
 
 
 **************************************************************
+
+
 # File_Download_Popup
+- **Characteristics:-**
+    1. We can not inspect this pop-up.
+    2. We can move this pop-up.
+    3. This pop-up contains **`save`** button & **`cancel`** button.
+    
+- **Solution:-**
+    1. We handle this pop-up using Robot class.
+
+- **Example:**
 
 
 **************************************************************
 # Print_Popup
+- **Characteristics:-**
+    1. We can not inspect this pop-up.
+    2. We can not move this pop-up.
+    3. This popup contains **`print`** button & **`cancel`** button
+- **Solution:-**
+
+- **Example:**
+
 
 **************************************************************
 
