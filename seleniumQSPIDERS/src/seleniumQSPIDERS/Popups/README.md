@@ -15,7 +15,7 @@
 # JavaScript_Popup
 
 - JavaScript Popup ia also called as **Alert Popups ,Confirmation Popups**.
-- Characteristics
+- **Characteristics**
     1. We cannot inspect this popup.
     2. We cannot move this popup.
     3. This popup is located exactly below the address bar and in center of the page.
@@ -42,7 +42,7 @@
     ```java
         driver.switchTo().alert().sendKeys("Text");
     ```
-- Example:- (actiTime)
+- **Example:- (actiTime)**
 
 ![image](https://user-images.githubusercontent.com/88243315/186738195-79baa6f0-346d-4a04-ab4c-1d68dd8012a0.png)
 
@@ -53,22 +53,22 @@
 
 # Hidden_Divison_Popup
 
-- Characteristics:-
+- **Characteristics:-**
     1. We can inspect this pop-up.
     2. We can not move the pop-up.
 
-- Solution:-
+- **Solution:-**
     1. We can handle this pop-up using `findElement()` itself.
     2. **Calender pop-up** is best example of **Hidden division pop-up**.
 
-- Example 1:-(Flipkart)
+- **Example 1:-(Flipkart)**
 
 ![image](https://user-images.githubusercontent.com/88243315/186739492-11c20d2b-5a14-4531-8dd8-cb0072370299.png)
 
 
 ![hiddendiv](https://user-images.githubusercontent.com/88243315/186739659-2c09ac76-3365-4285-ae22-f516927b3ffd.png)
 
-- Example 2:-(Relience insurance)
+- **Example 2:-(Relience insurance)**
 
     - Scenario
         1. Open the browser.
@@ -85,48 +85,56 @@
 
 **************************************************************
 # Child_Browser_Popup
-- Characteristics
+- **Characteristics**
     1. We can inspect this pop-up.
     2. We can move this pop-up.
     3. It will have minimize and maximize button
 
-- Solution:-
+- **Solution:-**
     - We can handle this using **getWindowHandle()** ,**getWindowHandles()** and **switchTo()** 
 **************************************************************
 # Notification_Popup
-- Characteristics
+- **Characteristics**
     1. We can not inspect this pop-up.
     2. We can not move this pop-up.
     3. This popup is licated exatly **below the address bar** & **towards left hand side**.
     4. The popup contains `allow` button & `block` button.
 
-- Solution:-
+- **Solution:-**
     1. We can handle this pop-up by changing the settings in browser.
     2. we need to create an object for chromeoptions class.
     3. Using its refrence variable, we call `addArguments();`. We pass the command **`--disable-notifications`**.
     4. While opening the browser pass the chromeoptions refrence variable as an argument inside the chromedriver constructor.
 
-- Syntax:-
+- **Syntax:-**
 ```java
     ChromeOptions option = new ChromeOptions();
-	option.addArguments("--disable-notifications");
-	WebDriver driver = new ChromeDriver(option);
+    option.addArguments("--disable-notifications");
+    WebDriver driver = new ChromeDriver(option);
 ```
 
-- Example:-
+- **Example:-**
 ![Notification_Popup](../../../Images/Notification_Popup.png)
 
 **************************************************************
 # File_Upload_Popup
-- Characteristics:-
+- **Characteristics:-**
     1. We can not inspect this pop-up.
     2. We can move this pop-up.
     3. This pop-up contains `open` button and `cancel` button. 
 
-- Solution:-
+- **Solution:-**
     1. To handle this pop-up, the file to be uploaded must be present inside the java project.
     2. We need to create an object for **file** class and pass the path of the uploading file as an argument.
     3. We fetch the absolute path of the file & do **sendKeys()** directly on button. 
+
+- **Example:**
+
+![HTML_File_Upload](../../../Images/HTML_File_Upload.png)
+
+![File_Upload_Popup](../../../Images/File_Upload_Popup.png)
+
+
 **************************************************************
 # File_Download_Popup
 
