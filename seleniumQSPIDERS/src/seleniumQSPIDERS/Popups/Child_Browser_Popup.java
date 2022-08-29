@@ -34,6 +34,6 @@ public class Child_Browser_Popup {
 				Thread.sleep(2000);
 			}
 		}
-		driver.close();
+		driver.quit();
 	}
 }
