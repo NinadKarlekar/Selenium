@@ -95,8 +95,12 @@
     
 ![Child_Browser_Popup](../../../Images/Child_Browser_Popup.png)
 - **Example:-**
+    - Scenario
+        1. Open the browser.
+        2. Go to `https://demoqa.com/browser-windows` .
+        3. Click on `New Window`.
 
-![Child_Browser_Popup_eg](../../../Images/Screenshot_Child_Browser_Popup%20(1049).png)
+![Child_Browser_Popup_eg](../../../Images/Screenshot_ChildBrowser%20(1054).png)
 **************************************************************
 # Notification_Popup
 - **Characteristics**
@@ -120,6 +124,8 @@
 
 - **Example:-**
 
+![Screenshot_Notification_Popup](../../../Images/Screenshot_Notification_Popup%20(1055).png)
+
 ![Notification_Popup](../../../Images/Notification_Popup.png)
 
 **************************************************************
@@ -137,6 +143,8 @@
     3. We fetch the absolute path of the file & do **sendKeys()** directly on button. 
 
 - **Example:**
+
+![file_upload_SCREENSHOT](../../../Images/Screenshot_File%20Upload%20Popup%20(1056).png)
 
 ![HTML_File_Upload](../../../Images/HTML_File_Upload.png)
 
