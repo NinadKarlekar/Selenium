@@ -1,6 +1,7 @@
 package seleniumQSPIDERS.Popups;
 
 import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,5 +20,6 @@ public class Notification_Popup {
 		driver.get("http://www.yatra.com");
 		Thread.sleep(5000);
 		driver.close();
+		
 	}
 }
