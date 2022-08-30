@@ -44,7 +44,7 @@
     ```
 - **Example:- (actiTime)**
 
-![image](https://user-images.githubusercontent.com/88243315/186738195-79baa6f0-346d-4a04-ab4c-1d68dd8012a0.png)
+![Screenshot_JAVASCRIPT](../../../Images/Screenshot_JAVASCRIPT%20(1053).png)
 
 ![alerts](https://user-images.githubusercontent.com/88243315/186230279-baca9bb2-da0d-4b05-8447-7c1c5804f2e9.png)
 
@@ -95,6 +95,7 @@
     
 ![Child_Browser_Popup](../../../Images/Child_Browser_Popup.png)
 - **Example:-**
+
 ![Child_Browser_Popup_eg](../../../Images/Screenshot_Child_Browser_Popup%20(1049).png)
 **************************************************************
 # Notification_Popup
@@ -118,6 +119,7 @@
 ```
 
 - **Example:-**
+
 ![Notification_Popup](../../../Images/Notification_Popup.png)
 
 **************************************************************
@@ -154,8 +156,10 @@
     1. We handle this pop-up using Robot class.
 
 - **Example:**
+
 ![File_Download_Popup](../../../Images/File_Download_Popup.png)
 
+![Screenshot_File_Download_Popup](../../../Images/Screenshot_File_Download_Popup(1050).png)
 **************************************************************
 # Print_Popup
 - **Characteristics:-**
