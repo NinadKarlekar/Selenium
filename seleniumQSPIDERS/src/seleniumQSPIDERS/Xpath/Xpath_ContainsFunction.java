@@ -22,7 +22,6 @@ public class Xpath_ContainsFunction {
 		driver.navigate().back();
 		
 		driver.findElement(By.xpath("//a[contains(.,'Amazon')]")).click();
-		driver.navigate().back();
-		
+		driver.navigate().back();		
 	}
 }

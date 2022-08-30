@@ -32,7 +32,7 @@ Xpath are of 2 types:-
     //For link 1 GOOGLE
 	driver.findElement(By.xpath("//div[1]/a[1]")).click();
 ```
-- There are several types of Relative Xpath
+- **There are several types of Relative Xpath**
     1.  [Xpath_by_Attribute](#Xpath_by_Attribute)
     2.  [Xpath_by_TextFunction](#Xpath_by_TextFunction)
     3.  [Xpath_by_ContainsFunction](#Xpath_by_ContainsFunction)
@@ -40,7 +40,7 @@ Xpath are of 2 types:-
     5.  [Xpath_by_Group_Index](#Xpath_by_Group_Index)
     6.  [Xpath_by_AxesTag](#Xpath_by_AxesTag)
 
-
+***********************************************
 ### Xpath_by_Attribute
 - XPath expression select nodes or list of nodes on the basis of attributes like ID , Name, Classname, etc.
 - Syntax:-
@@ -102,6 +102,10 @@ Xpath are of 2 types:-
 
         driver.findElement(By.xpath("//a[contains(.,'Amazon')]")).click();
     ```
+
+![xpath_contains_java](../../../Images/xpath_contains.png)
+
+![xpath_contains_html](../../../Images/AbsoluteXpath.png)
 *****************************************************
 
 ### Xpath_by_Dependant_Independant
@@ -120,6 +124,10 @@ Xpath are of 2 types:-
 ```java
     driver.findElement(By.xpath("//a[.='JAVA']/../../td[2]/a")).click();
 ```
+
+![xpath_traversing_html](../../../Images/xpath_traversing_html.png)
+
+![xpath_traversing](../../../Images/xpath_traversing.png)
 ************************************************
 
 ### Xpath_by_Group_Index
@@ -147,6 +155,7 @@ Xpath are of 2 types:-
 ![image](https://user-images.githubusercontent.com/88243315/187042457-4ba789d2-4c0b-4926-8d0b-7b9849fedd0e.png)
 
 ******************************************************
+
 ### Xpath_by_AxesTag
 - Different XPath Axes Used In Selenium Testing:-
     1. **child:-** This indicates the children of the context node
@@ -173,12 +182,21 @@ Xpath are of 2 types:-
             /following-sibling::tagName
         ```
 
-    5. preceding-sibling:- This one indicates all the sibling nodes (same parent as context node) that appear before the context node
+    5. **preceding-sibling:-** This one indicates all the sibling nodes (same parent as context node) that appear before the context node
         - Syntax:-
         ```
             /preceding-sibling::tagName
         ```
+
 - Example for Axes Tag
 ```java
     driver.findElement(By.xpath("//a[.='JAVA']/parent::td/following-sibling::td/child::a")).click();
 ```
+
+![xpath_Axes](../../../Images/xpath_traversing_html.png)
+
+![xpath_axes_tag](../../../Images/xpath_axes_tag.png)
+
+******************************************************************************
+
+[GoBackToMainFile](https://github.com/NinadKarlekar/Selenium/blob/4316f057532f7bd3089d4e841319c5ce03f9b83d/README.md)
