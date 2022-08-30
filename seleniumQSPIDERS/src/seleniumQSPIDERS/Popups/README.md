@@ -43,6 +43,15 @@
         driver.switchTo().alert().sendKeys("Text");
     ```
 - **Example:- (actiTime)**
+    - Scenario
+        1. Open Chrome browser.
+        2. Visit to `https://demo.actitime.com/login.do`
+        3. Type UserName as `admin` & password as `manager` and click on login.
+        4. Click on Tasks -> Add New -> New Customer
+        5. Enter random name and click on cancel.
+        6. Handle popup and click on logout.
+        7. Close the browser.
+
 
 ![Screenshot_JAVASCRIPT](../../../Images/Screenshot_JAVASCRIPT%20(1053).png)
 
@@ -165,9 +174,11 @@
 
 - **Example:**
 
+![Screenshot_File_Download_Popup](../../../Images/Screenshot_File_Download_Popup(1050).png)
+
 ![File_Download_Popup](../../../Images/File_Download_Popup.png)
 
-![Screenshot_File_Download_Popup](../../../Images/Screenshot_File_Download_Popup(1050).png)
+
 **************************************************************
 # Print_Popup
 - **Characteristics:-**
