@@ -1,29 +1,34 @@
 # Selenium
 Selenium Qspiders on eclipse with JAVA
 
-1.  [get()](#get)
-2.  [getTitle()](#getTitle)
-3.  [getCurrentUrl()](#getCurrentUrl)
-4.  [getPageSource()](#getPageSource)
-5.  [manage()](#manage)
-6.  [switchTo()](#switchTo)
-7.  [navigate()](#navigate)
-8.  [close()](#close)
-9.  [quit()](#quit)
-10.  [getWindowHandle](#getWindowHandle)
-11.  [getWindowHandles](#getWindowHandles)
 
-12. [findElement](#findElement)
-    - [Fb login with findElement by id and name](#Fb_login_with_findElement_by_id_and_name)
-    - [Fb login with findElement by cssSelector](#Fb_login_with_findElement_by_cssSelector)
-    - [link access with findElement by linktext](#link_access_with_findElement_by_linktext)
-    - [link access with xpath](#xpath1)
-        - [link access with Absolute xpath](#AbsoluteXpath)
-        - [link access with Relative xpath](#RelativeXpath)
-13. [findElements](#findElements)
+![SeleniumMain](seleniumQSPIDERS/Images/Selenium%20tree.jpeg)
 
-[README](https://github.com/NinadKarlekar/Selenium/blob/aa7eab1890eacc93788f10f51a693dd2d982daa1/seleniumQSPIDERS/src/seleniumQSPIDERS/Handling/README.md)
+- The **WebDriver** interface is child of **SerchContext** interface. It has 13 methods as follows:-
+    1.  [get()](#get)
+    2.  [getTitle()](#getTitle)
+    3.  [getCurrentUrl()](#getCurrentUrl)
+    4.  [getPageSource()](#getPageSource)
+    5.  [manage()](#manage)
+    6.  [switchTo()](#switchTo)
+    7.  [navigate()](#navigate)
+    8.  [close()](#close)
+    9.  [quit()](#quit)
+    10.  [getWindowHandle](#getWindowHandle)
+    11.  [getWindowHandles](#getWindowHandles)
+    12. [findElement](#findElement)
+    13. [findElements](#findElements)
 
+**************************
+- The **JavaScriptExecutor** interface contains 2 methods as follows:-
+    1. [executeScript()](#executeScript)
+    2. [executeAsyncScript()](#executeAsyncScript)
+
+***************************
+- The **TakesScreenshot** interface has 1 method:-
+    1. [getScreenshotAs()](#getScreenshotAs)
+
+****************************
 
 ## get
 - It is used to enter url
@@ -56,8 +61,8 @@ Selenium Qspiders on eclipse with JAVA
 - It is used to fetch html code of current page
 - Syntax:-
 ```java
-		String page = driver.getPageSource(); //getPageSource()
-		System.out.println("\nSource code of Page is:- "+page);
+    String page = driver.getPageSource(); //getPageSource()
+    System.out.println("\nSource code of Page is:- "+page);
 ```
 
 **************************************
@@ -66,15 +71,15 @@ Selenium Qspiders on eclipse with JAVA
 - This method is used to maximize or minimize window
 - Syntax:-
 ```java
-		driver.manage().window().maximize();  //manage()
-		driver.manage().window().minimize();
+    driver.manage().window().maximize();  //manage()
+    driver.manage().window().minimize();
 ```
 *********************************
 ## close
 - The close() method is a Webdriver command that closes the browser window **currently in focus**.
 - Syntax:-
 ```java
-		driver.close();
+    driver.close();
 ```
 
 *********************************
@@ -82,7 +87,7 @@ Selenium Qspiders on eclipse with JAVA
 - The quit() command quits the entire browser session with **all its tabs and windows.**.
 - Syntax:-
 ```java
-		driver.quit();
+    driver.quit();
 ```
 
 *********************************
