@@ -138,7 +138,7 @@ Selenium Qspiders on eclipse with JAVA
 
 - get.windowhandle(): helps in getting the window handle of the current window
 - get.windowhandles(): helps in getting the handles of all the windows opened
-- set: helps to set the window handles which is in the form of a string.```  set<string> set= driver.get.windowhandles()```
+- set: helps to set the window handles which is in the form of a string.```set<string> set= driver.get.windowhandles()```
 ![getwindowhandles](https://user-images.githubusercontent.com/88243315/183307832-43629bd6-d408-4ff3-aaae-c792be8bb1b1.png)
 
 
@@ -377,13 +377,35 @@ Xpath are of 2 types:-
     //For link 1 GOOGLE
 	driver.findElement(By.xpath("//div[1]/a[1]")).click();
 ```
-- **There are several types of Relative Xpath**
-    1.  [Xpath_by_Attribute](#Xpath_by_Attribute)
-    2.  [Xpath_by_TextFunction](#Xpath_by_TextFunction)
-    3.  [Xpath_by_ContainsFunction](#Xpath_by_ContainsFunction)
-    4.  [Xpath_by_Dependant_Independant](#Xpath_by_Dependant_Independant)
-    5.  [Xpath_by_Group_Index](#Xpath_by_Group_Index)
-    6.  [Xpath_by_AxesTag](#Xpath_by_AxesTag)
+
+*******************************
+
+
+- link.html file
+
+![linkhtml](https://user-images.githubusercontent.com/88243315/183301642-8c39b684-cfa0-42fe-b463-5263d93c4d9f.png)
+![WhatsApp Image 2022-08-07 at 8 44 19 PM](https://user-images.githubusercontent.com/88243315/183306551-ebe126c7-3227-47dd-bd34-808b153118b8.jpeg)
+
+
+
+Element | Absolute Xpath | Relative Xpath
+--- | --- | ---
+*Google* | `./html/body/div[1]/a[1]` | `//div[1]/a[1]`
+*T3* | `./html/body/div[2]/input[2]` | `//input[2]`
+*Google , FB* | `./html/body/div[1]/a` | `//div[1]/a`
+*Google ,Amazon* | `./html/body/div/a[1]` | `//a[1]`
+*T1 ,T2 ,T3* | `./html/body/div/input` | `//input`
+*T1 ,T2* | `./html/body/div/input[1]` | `//input[1]`
+*Google ,FB ,Amazon* | `./html/body/div/a` | `//a`
+
+********************************************************
+**There are several types of Relative Xpath**
+1.  [Xpath_by_Attribute](#Xpath_by_Attribute)
+2.  [Xpath_by_TextFunction](#Xpath_by_TextFunction)
+3.  [Xpath_by_ContainsFunction](#Xpath_by_ContainsFunction)
+4.  [Xpath_by_Dependant_Independant](#Xpath_by_Dependant_Independant)
+5.  [Xpath_by_Group_Index](#Xpath_by_Group_Index)
+6.  [Xpath_by_AxesTag](#Xpath_by_AxesTag)
 
 ***********************************************
 ### Xpath_by_Attribute
@@ -447,10 +469,9 @@ Xpath are of 2 types:-
 
         driver.findElement(By.xpath("//a[contains(.,'Amazon')]")).click();
     ```
+![xpath_contains_java](seleniumQSPIDERS/Images/xpath_contains.png)
+![xpath_contains_html](seleniumQSPIDERS/Images/AbsoluteXpath.png)
 
-![xpath_contains_java](../../../Images/xpath_contains.png)
-
-![xpath_contains_html](../../../Images/AbsoluteXpath.png)
 *****************************************************
 
 ### Xpath_by_Dependant_Independant
@@ -469,10 +490,11 @@ Xpath are of 2 types:-
 ```java
     driver.findElement(By.xpath("//a[.='JAVA']/../../td[2]/a")).click();
 ```
+![xpath_traversing_html](seleniumQSPIDERS/Images/xpath_traversing_html.png)
 
-![xpath_traversing_html](../../../Images/xpath_traversing_html.png)
+![xpath_traversing](seleniumQSPIDERS/Images/xpath_traversing.png)
 
-![xpath_traversing](../../../Images/xpath_traversing.png)
+
 ************************************************
 
 ### Xpath_by_Group_Index
@@ -538,9 +560,9 @@ Xpath are of 2 types:-
     driver.findElement(By.xpath("//a[.='JAVA']/parent::td/following-sibling::td/child::a")).click();
 ```
 
-![xpath_Axes](../../../Images/xpath_traversing_html.png)
+![xpath_Axes](seleniumQSPIDERS/Images/xpath_traversing_html.png)
 
-![xpath_axes_tag](../../../Images/xpath_axes_tag.png)
+![xpath_axes_tag](seleniumQSPIDERS/Images/xpath_axes_tag.png)
 
 
 ******************************************************************************
@@ -569,20 +591,5 @@ Xpath is having 2 types:-
 
 ### RelativeXpath
 
-- link.html file
-![linkhtml](https://user-images.githubusercontent.com/88243315/183301642-8c39b684-cfa0-42fe-b463-5263d93c4d9f.png)
-![WhatsApp Image 2022-08-07 at 8 44 19 PM](https://user-images.githubusercontent.com/88243315/183306551-ebe126c7-3227-47dd-bd34-808b153118b8.jpeg)
-
-
-
-Element | Absolute Xpath | Relative Xpath
---- | --- | ---
-*Google* | `./html/body/div[1]/a[1]` | `//div[1]/a[1]`
-*T3* | `./html/body/div[2]/input[2]` | `//input[2]`
-*Google , FB* | `./html/body/div[1]/a` | `//div[1]/a`
-*Google ,Amazon* | `./html/body/div/a[1]` | `//a[1]`
-*T1 ,T2 ,T3* | `./html/body/div/input` | `//input`
-*T1 ,T2* | `./html/body/div/input[1]` | `//input[1]`
-*Google ,FB ,Amazon* | `./html/body/div/a` | `//a`
 
 ***************************************************************
