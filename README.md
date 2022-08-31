@@ -570,26 +570,3 @@ Element | Absolute Xpath | Relative Xpath
 [GoBackToMainFile](https://github.com/NinadKarlekar/Selenium/blob/4316f057532f7bd3089d4e841319c5ce03f9b83d/README.md)
 
 
-
-
-
-***************************************************************
-## link_access_with_findElement_by_linktext
-
-
- 
-***************************************************************
-
-
-## xpath1
-Xpath is having 2 types:-
-1. Absolute Xpath
-2. Relative Xpath
-
-### AbsoluteXpath
-![xpath1](https://user-images.githubusercontent.com/88243315/183301525-5aba36e7-e525-452d-b421-6cc29890ab55.png)
-
-### RelativeXpath
-
-
-***************************************************************
