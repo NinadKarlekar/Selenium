@@ -22,7 +22,7 @@ public class HandlingListItems {
 		Thread.sleep(3000);
 		WebElement tajLB = driver.findElement(By.id("taj"));
 		Select s1 = new Select(tajLB);
-		s1 = new Select(driver.findElement(By.id("taj")));
+		//s1 = new Select(driver.findElement(By.id("taj")));
 		s1.selectByIndex(0);
 		Thread.sleep(1000);
 		s1.selectByValue("vt");
