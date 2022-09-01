@@ -24,7 +24,8 @@ public class actiTime_driver {
 		t1.clickTaskMenu();
 		t1.clickaddNewCustomer();
 		t1.clicknewCustomer();
-		t1.setnameTB("abcd");
+		Thread.sleep(2000);
+		t1.setnameTB("temp name ninad");
 		t1.setdescriptionTB("description");
 		t1.setSelectCustomerLISTBOX();
 		t1.robot_big();
