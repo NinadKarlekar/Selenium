@@ -55,6 +55,7 @@ public class ACT_Tasks_001 {
 		r1.keyPress(KeyEvent.VK_G);
 
 		Thread.sleep(4000);
+		
 		driver.findElement(By.xpath("//span[@class='highlightToken']")).click();
 		Thread.sleep(3000);
 
