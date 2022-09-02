@@ -14,12 +14,12 @@ public class ExcelRead {
 		//Create an object of FileInputStream class to read excel file
 		Workbook wb = WorkbookFactory.create(new FileInputStream(path));
 		
-		//Fetch data from 0th row & 0th coloumn
+		//Fetch and print data from 1st row & 1st column (A2 cell in excel)
 		String un = wb.getSheet("input").getRow(0).getCell(0).toString();
-		System.out.println("Data on 0th row & 0th coloumn is: "+un);
+		System.out.println("Data on 1st row & 1st column (A2 cell in excel) is: "+un);
 		
-		//Fetch data from 0th row & 1st coloumn
+		//Fetch and print data from 1st row & 2nd column(B2 cell in excel)
 		String pw = wb.getSheet("input").getRow(0).getCell(1).toString();
-		System.out.println("Data on 0th row & 1st coloumn is: "+pw);
+		System.out.println("Data on 1st row & 2nd column(B2 cell in excel) is: "+pw);
 	}
 }
