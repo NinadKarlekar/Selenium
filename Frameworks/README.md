@@ -14,17 +14,22 @@ Selenium Qspiders on eclipse with JAVA
     ```
         https://poi.apache.org/download.html
     ```
-2. Under Binary distribution click on `.zip` link.
+2. Under Binary distribution click on **`.zip`** link.
 ![SS_BinaryDistribution](GitImages/SS_BinaryDistribution.jpg)
+
 3. Click on suggested link for download. The zip file gets downloaded automatically.
 ![SS_SuggestedLink](GitImages/SS_SuggestedLink.jpg)
+
 4. Extract the zip file.
 5. Copy paste all jar file from folders and subfolders into jar folder of eclipse.
 ![SS_jarFolderpaste](GitImages/SS_jarFolderpaste.jpg)
+
 6. Select all .jar files -> Right click -> Go to build path -> Click on add to build path.
 ![SS_BuildPath](GitImages/SS_BuildPath.jpg)
+
 7. Create folder called `data` in java project and copy-paste excel sheet.
 ![SS_DATAExcel](GitImages/SS_DATAExcel.jpg)
+
 8. Type **USERNAME** and **PASSWORD** in excel sheet and give sheet name as `input`.
 ![SS_Book1](GitImages/SS_Book1.jpg)
 
