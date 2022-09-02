@@ -2,8 +2,13 @@
 Selenium Qspiders on eclipse with JAVA
 
 1.  [DataDrivenFramework](#DataDrivenFramework)
+    1. [DownloadSteps](#to-download-poi-follow-this-steps)
+    2. [ExcelRead](#excelread)
+    3. [ExcelWrite](#excelwrite)
+1.  [Page Object Model(POM)](#page-object-modelpom)
+1.  [TestNG](#testng)
 
-# DataDrivenFramework
+## DataDrivenFramework
 
 1. While writing selenium scripts ,we should not hardcode all inputs.
 2. Insted we need to fetch input from extended file such as **excel** file.
@@ -11,7 +16,7 @@ Selenium Qspiders on eclipse with JAVA
 
 ***********************************
 
-# To download POI follow this steps:-
+## To download POI follow this steps:-
 1. Go to Google and type POI jar file download and select first link.
     ```
         https://poi.apache.org/download.html
@@ -43,7 +48,7 @@ Selenium Qspiders on eclipse with JAVA
 ![SS_Book1](GitImages/SS_Book1.jpg)
 
 *******************************
-# ExcelRead
+## ExcelRead
 - **Scenario**
     1. Open Book1.xlsx file.
     2. Fetch and print data from 1st row & 1st column **`(A2 cell in excel)`**
@@ -58,7 +63,7 @@ Selenium Qspiders on eclipse with JAVA
 ![OUTPUT_ExcelRead](GitImages/SS_ExcelRead.jpg)
 *******************************
 
-# ExcelWrite
+## ExcelWrite
 - **Scenario**
     1. Open Book1.xlsx file.
     2. Print old value on 5th row and 2nd column **`(B5 cell in Excel)`**.
@@ -75,6 +80,20 @@ Selenium Qspiders on eclipse with JAVA
 
 ******************************************************************************
 
+# Page Object Model(POM)
+
+******************************************************************************
+
+# TestNG
+
+
+
+
+
+
+
+
+**************************
 [GoBackToMainFile](https://github.com/NinadKarlekar/Selenium/blob/4316f057532f7bd3089d4e841319c5ce03f9b83d/README.md)
 
 
