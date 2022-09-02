@@ -2,10 +2,10 @@
 Selenium Qspiders on eclipse with JAVA
 
 1.  [DataDrivenFramework](#DataDrivenFramework)
-    1. [DownloadSteps](#to-download-poi-follow-this-steps)
-    2. [ExcelRead](#excelread)
-    3. [ExcelWrite](#excelwrite)
-1.  [Page Object Model(POM)](#page-object-modelpom)
+    1. [DownloadSteps](#STEPS_POI)
+    2. [ExcelRead](#ExcelRead)
+    3. [ExcelWrite](#ExcelWrite)
+1.  [Page Object Model(POM)](#POM)
 1.  [TestNG](#testng)
 
 ## DataDrivenFramework
@@ -15,8 +15,8 @@ Selenium Qspiders on eclipse with JAVA
 3. To fetch data from excel file and use it in java we need an **api(application programming interface)** known as **POI(Poor Obfuscation/abstraction Implementation)** 
 
 ***********************************
-
-## To download POI follow this steps:-
+## STEPS_POI
+- To download POI follow this steps:-
 1. Go to Google and type POI jar file download and select first link.
     ```
         https://poi.apache.org/download.html
@@ -79,8 +79,8 @@ Selenium Qspiders on eclipse with JAVA
 ![OUTPUT_ExcelWrite](GitImages/SS_ExcelWrite.jpg)
 
 ******************************************************************************
-
-# Page Object Model(POM)
+# POM
+Page Object Model(POM)
 
 ******************************************************************************
 
