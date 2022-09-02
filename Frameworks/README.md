@@ -9,6 +9,8 @@ Selenium Qspiders on eclipse with JAVA
 2. Insted we need to fetch input from extended file such as **excel** file.
 3. To fetch data from excel file and use it in java we need an **api(application programming interface)** known as **POI(Poor Obfuscation/abstraction Implementation)** 
 
+***********************************
+
 # To download POI follow this steps:-
 1. Go to Google and type POI jar file download and select first link.
     ```
