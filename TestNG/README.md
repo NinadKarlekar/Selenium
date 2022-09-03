@@ -46,3 +46,24 @@ https://testng.org/testng-eclipse-update-site
 
 ******************************
 
+## TestNG_Configuration
+
+1. Right click on java project -> build path -> add libraries
+
+    ![SS_AddLibraries](GitImages/SS_AddLibraries.jpg)
+
+2. Select TestNG from popup click on next and finish.
+
+    ![SS_TestNGPOPUP](GitImages/SS_TestNGPOPUP.jpg)
+
+3. By doing this the TestNG library is added into project.
+
+
+***********************
+## P1
+
+- Console
+![SS_P1_Console](GitImages/SS_P1_Console.jpg)
+
+- Report.html
+![SS_P1_Report](GitImages/SS_P1_Report.png)
