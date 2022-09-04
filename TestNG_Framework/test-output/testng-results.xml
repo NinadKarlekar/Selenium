@@ -2,42 +2,30 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[safarchand]]>
-    </line>
-    <line>
-      <![CDATA[kela]]>
-    </line>
-    <line>
-      <![CDATA[Sapota]]>
+      <![CDATA[+91 9243602352]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-09-04T23:17:24 IST" name="Default suite" finished-at="2022-09-04T23:17:24 IST" duration-ms="50">
+  <suite started-at="2022-09-04T23:53:59 IST" name="Default suite" finished-at="2022-09-04T23:54:18 IST" duration-ms="19589">
     <groups>
     </groups>
-    <test started-at="2022-09-04T23:17:24 IST" name="Default test" finished-at="2022-09-04T23:17:24 IST" duration-ms="50">
-      <class name="TestNG_Framework.P1">
-        <test-method signature="apple()[pri:0, instance:TestNG_Framework.P1@63a65a25]" started-at="2022-09-04T23:17:24 IST" name="apple" finished-at="2022-09-04T23:17:24 IST" duration-ms="8" status="PASS">
+    <test started-at="2022-09-04T23:53:59 IST" name="Default test" finished-at="2022-09-04T23:54:18 IST" duration-ms="19589">
+      <class name="TestNG_Framework.MouseHoverAction">
+        <test-method signature="openApp()[pri:1, instance:TestNG_Framework.MouseHoverAction@be64738]" started-at="2022-09-04T23:53:59 IST" name="openApp" finished-at="2022-09-04T23:54:01 IST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testApp()[pri:2, instance:TestNG_Framework.MouseHoverAction@be64738]" started-at="2022-09-04T23:54:01 IST" name="testApp" finished-at="2022-09-04T23:54:16 IST" duration-ms="15225" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[safarchand]]>
+              <![CDATA[+91 9243602352]]>
             </line>
           </reporter-output>
-        </test-method> <!-- apple -->
-        <test-method signature="banana()[pri:0, instance:TestNG_Framework.P1@63a65a25]" started-at="2022-09-04T23:17:24 IST" name="banana" finished-at="2022-09-04T23:17:24 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testApp -->
+        <test-method signature="closeApp()[pri:3, instance:TestNG_Framework.MouseHoverAction@be64738]" started-at="2022-09-04T23:54:16 IST" name="closeApp" finished-at="2022-09-04T23:54:18 IST" duration-ms="2427" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[kela]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- banana -->
-        <test-method signature="chickoo()[pri:0, instance:TestNG_Framework.P1@63a65a25]" started-at="2022-09-04T23:17:24 IST" name="chickoo" finished-at="2022-09-04T23:17:24 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sapota]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- chickoo -->
-      </class> <!-- TestNG_Framework.P1 -->
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestNG_Framework.MouseHoverAction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
