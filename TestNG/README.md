@@ -62,8 +62,20 @@ https://testng.org/testng-eclipse-update-site
 ***********************
 ## P1
 
-- Console
+- **Code:-**
+
+![P1](GitImages/c_P1.png)
+
+- **Explanation:-**
+
+    - 
+
+- **Console**
+
 ![SS_P1_Console](GitImages/SS_P1_Console.jpg)
 
-- Report.html
+- **Report.html**
+
 ![SS_P1_Report](GitImages/SS_P1_Report.png)
+
+*********************************

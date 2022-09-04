@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[safarchand]]>
+    </line>
+    <line>
+      <![CDATA[kela]]>
+    </line>
+    <line>
+      <![CDATA[Sapota]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-04T23:07:20 IST" name="Suite" finished-at="2022-09-04T23:07:21 IST" duration-ms="91">
+    <groups>
+    </groups>
+    <test started-at="2022-09-04T23:07:20 IST" name="Test" finished-at="2022-09-04T23:07:21 IST" duration-ms="91">
+      <class name="TestNG_Framework.P2">
+        <test-method signature="cat()[pri:-3, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="cat" finished-at="2022-09-04T23:07:21 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cat -->
+        <test-method signature="cat()[pri:-3, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="cat" finished-at="2022-09-04T23:07:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cat -->
+        <test-method signature="crow()[pri:1, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="crow" finished-at="2022-09-04T23:07:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crow -->
+        <test-method signature="crow()[pri:1, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="crow" finished-at="2022-09-04T23:07:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crow -->
+        <test-method signature="crow()[pri:1, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="crow" finished-at="2022-09-04T23:07:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crow -->
+        <test-method signature="dog()[pri:2, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="dog" finished-at="2022-09-04T23:07:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dog -->
+        <test-method signature="dog()[pri:2, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="dog" finished-at="2022-09-04T23:07:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dog -->
+        <test-method signature="dog()[pri:2, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="dog" finished-at="2022-09-04T23:07:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dog -->
+        <test-method signature="dog()[pri:2, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="dog" finished-at="2022-09-04T23:07:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dog -->
+        <test-method signature="dog()[pri:2, instance:TestNG_Framework.P2@3c9d0b9d]" started-at="2022-09-04T23:07:21 IST" name="dog" finished-at="2022-09-04T23:07:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dog -->
+      </class> <!-- TestNG_Framework.P2 -->
+      <class name="TestNG_Framework.P1">
+        <test-method signature="apple()[pri:0, instance:TestNG_Framework.P1@7ee955a8]" started-at="2022-09-04T23:07:21 IST" name="apple" finished-at="2022-09-04T23:07:21 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[safarchand]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method signature="banana()[pri:0, instance:TestNG_Framework.P1@7ee955a8]" started-at="2022-09-04T23:07:21 IST" name="banana" finished-at="2022-09-04T23:07:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[kela]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- banana -->
+        <test-method signature="chickoo()[pri:0, instance:TestNG_Framework.P1@7ee955a8]" started-at="2022-09-04T23:07:21 IST" name="chickoo" finished-at="2022-09-04T23:07:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sapota]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chickoo -->
+      </class> <!-- TestNG_Framework.P1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

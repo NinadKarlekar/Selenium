@@ -1,6 +1,7 @@
 package TestNG;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class P2 {
 	@Test(priority = -3, invocationCount = 2)
