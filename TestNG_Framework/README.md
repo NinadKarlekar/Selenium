@@ -13,6 +13,7 @@
 2. [P2 (Priority,invocationcount)](#P2)
 3. [MouseHoverAction](#mousehoveraction)
 4. [P3 (@BeforeMethod,@AfterMethod)](#P3)
+5. [P5 (Google,Facebook)](#P5)
 ***********************
 
 # Annotation in TestNG
@@ -338,11 +339,13 @@ priority is given as **2** so it will execute on second priority.
 ************************
 
 - **Console**
-![SS_P5_1](GitImages/SS_P5_1.png)
-![SS_P5_2](GitImages/SS_P5_2.png)
+
+    ![SS_P5_1](GitImages/SS_P5_1.png)
+    ![SS_P5_2](GitImages/SS_P5_2.png)
 ************************
 
 - **Report.html**
-![SS_P5_Report](GitImages/SS_P5_Report.png)
+
+    ![SS_P5_Report](GitImages/SS_P5_Report.png)
 
 ************************
