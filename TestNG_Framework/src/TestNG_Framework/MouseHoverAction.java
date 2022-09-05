@@ -34,7 +34,7 @@ public class MouseHoverAction {
 		driver.findElement(By.xpath("(//a[contains(.,'Contact Us')])[1]")).click();
 		WebElement contactNo = driver.findElement(By.xpath("//p[contains(.,'Bengaluru')]/../p[2]"));
 		 
-		Reporter.log(contactNo.getText(),true);
+		t
 	}
 	
 	@Test(priority = 3)

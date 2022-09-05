@@ -1,18 +1,26 @@
 # TestNG
-
+# Index
 
 1.  [TestNG](#TestNG)
 2.  [TestNG_Installation](#TestNG_Installation)
 3.  [TestNG_Configuration](#TestNG_Configuration)
 
+**********************
+
 # Programs
 
 1. [P1 (Alphabetical order)](#P1)
-2. [P2(Priority,invocationcount)](#P2)
+2. [P2 (Priority,invocationcount)](#P2)
 3. [MouseHoverAction](#mousehoveraction)
 
 ***********************
 
+# Annotation in TestNG
+
+1. [Annotation in TestNG](#Annotation_in_TestNG)
+2. [Default Execution Order](#Default_Execution_Order)
+
+************************
 ## TestNG_Installation
 Steps:-
 1. Open Eclipse and create java project
@@ -164,3 +172,41 @@ https://testng.org/testng-eclipse-update-site
 
 
 *********************************************
+
+# Annotation_in_TestNG
+
+1. **BeforeSuite**
+    - The **`@BeforeSuite`** annotated method will run before the execution of all the test methods in the suite.
+
+2. **AfterSuite**
+    -  The **`@AfterSuite`** annotated method will run after the execution of all the test methods in the suite.
+
+3. **BeforeTest**
+    - The **`@BeforeTest`** annotated method will be executed before the execution of all the test methods of available classes belonging to that folder.
+
+4. **AfterTest**
+    - The **`@AfterClass`** annotated method will be invoked after the execution of all the test methods of the current class.
+
+5. **BeforeClass**
+    - The **`@BeforeClass`** annotated method will be executed before the first method of the current class is invoked.
+
+
+6. **AfterClass**
+    - The **`@AfterClass`** annotated method will be invoked after the execution of all the test methods of the current class.
+
+
+7. **BeforeMethod**
+    - The **`@BeforeMethod`** annotated method will be executed **once** before each test method will run.
+
+8. **AfterMethod**
+    - The **`@AfterMethod `** annotated method will run **once** after the execution of each test method.
+
+**************
+
+# Default_Execution_Order
+
+![SS_Default_Execution_Order](GitImages/SS_Default_Execution_Order.jpg)
+
+****************
+
+# Steps_to_create_xml/suite_File
