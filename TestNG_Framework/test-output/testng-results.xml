@@ -1,31 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[+91 9243602352]]>
+      <![CDATA[Title Google]]>
+    </line>
+    <line>
+      <![CDATA[URL https://www.google.com/?gws_rd=ssl]]>
+    </line>
+    <line>
+      <![CDATA[Title Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[URL https://www.facebook.com/]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-09-04T23:53:59 IST" name="Default suite" finished-at="2022-09-04T23:54:18 IST" duration-ms="19589">
+  <suite started-at="2022-09-06T00:47:14 IST" name="Default suite" finished-at="2022-09-06T00:47:49 IST" duration-ms="35390">
     <groups>
     </groups>
-    <test started-at="2022-09-04T23:53:59 IST" name="Default test" finished-at="2022-09-04T23:54:18 IST" duration-ms="19589">
-      <class name="TestNG_Framework.MouseHoverAction">
-        <test-method signature="openApp()[pri:1, instance:TestNG_Framework.MouseHoverAction@be64738]" started-at="2022-09-04T23:53:59 IST" name="openApp" finished-at="2022-09-04T23:54:01 IST" duration-ms="1895" status="PASS">
+    <test started-at="2022-09-06T00:47:14 IST" name="Default test" finished-at="2022-09-06T00:47:49 IST" duration-ms="35390">
+      <class name="TestNG_Framework.P5">
+        <test-method is-config="true" signature="t1()[pri:0, instance:TestNG_Framework.P5@3daa422a]" started-at="2022-09-06T00:47:14 IST" name="t1" finished-at="2022-09-06T00:47:14 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestNG_Framework.P5@3daa422a]" started-at="2022-09-06T00:47:14 IST" name="openApp" finished-at="2022-09-06T00:47:16 IST" duration-ms="1827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testApp()[pri:2, instance:TestNG_Framework.MouseHoverAction@be64738]" started-at="2022-09-04T23:54:01 IST" name="testApp" finished-at="2022-09-04T23:54:16 IST" duration-ms="15225" status="PASS">
+        <test-method signature="testGoogle()[pri:1, instance:TestNG_Framework.P5@3daa422a]" started-at="2022-09-06T00:47:16 IST" name="testGoogle" finished-at="2022-09-06T00:47:38 IST" duration-ms="22393" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[+91 9243602352]]>
+              <![CDATA[Title Google]]>
+            </line>
+            <line>
+              <![CDATA[URL https://www.google.com/?gws_rd=ssl]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testApp -->
-        <test-method signature="closeApp()[pri:3, instance:TestNG_Framework.MouseHoverAction@be64738]" started-at="2022-09-04T23:54:16 IST" name="closeApp" finished-at="2022-09-04T23:54:18 IST" duration-ms="2427" status="PASS">
+        </test-method> <!-- testGoogle -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestNG_Framework.P5@3daa422a]" started-at="2022-09-06T00:47:38 IST" name="closeApp" finished-at="2022-09-06T00:47:41 IST" duration-ms="2445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- TestNG_Framework.MouseHoverAction -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestNG_Framework.P5@3daa422a]" started-at="2022-09-06T00:47:41 IST" name="openApp" finished-at="2022-09-06T00:47:42 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testFacebook()[pri:2, instance:TestNG_Framework.P5@3daa422a]" started-at="2022-09-06T00:47:42 IST" name="testFacebook" finished-at="2022-09-06T00:47:49 IST" duration-ms="7140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[URL https://www.facebook.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFacebook -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestNG_Framework.P5@3daa422a]" started-at="2022-09-06T00:47:49 IST" name="closeApp" finished-at="2022-09-06T00:47:49 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="t2()[pri:0, instance:TestNG_Framework.P5@3daa422a]" started-at="2022-09-06T00:47:49 IST" name="t2" finished-at="2022-09-06T00:47:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+      </class> <!-- TestNG_Framework.P5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

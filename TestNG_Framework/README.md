@@ -12,7 +12,7 @@
 1. [P1 (Alphabetical order)](#P1)
 2. [P2 (Priority,invocationcount)](#P2)
 3. [MouseHoverAction](#mousehoveraction)
-
+4. [P3 (@BeforeMethod,@AfterMethod)](#P3)
 ***********************
 
 # Annotation in TestNG
@@ -210,3 +210,139 @@ https://testng.org/testng-eclipse-update-site
 ****************
 
 # Steps_to_create_xml/suite_File
+
+1. Right click on the project/package -> you will see **TestNG** -> **Convert to TestNG**.
+
+    ![SS_STEP1](GitImages/SS_STEP1.jpg)
+
+2. In Popup give desired name for xml file
+    eg. TestNG1.xml
+
+    ![SS_STEP2](GitImages/SS_STEP2.png)
+
+3. The testing1.xml file is shown below:
+
+    ![SS_STEP3](GitImages/SS_STEP3.png)
+
+4. To run **TestSuite/xml file** 
+    - Right click on xml file -> Run as -> Click on TestNG Suite.
+
+    ![SS_STEP4](GitImages/SS_STEP4.png)
+
+***************************
+Program on **@BeforeMethod** and **@AfterMethod**
+
+## P3
+
+- **Scenario:-**
+
+    Write a program using **@BeforeMethod** and **@AfterMethod** 
+
+- **Source Code:-**
+
+    ![c_P3](GitImages/c_P3.png)
+
+- **Console**
+
+    ![SS_P3](GitImages/SS_P3.png)
+
+- **Explanation:-**
+
+    1. We have created 2 **@Test** methods & 1 **@BeforeMethod** , **@AfterMethod** each.
+
+    2. **@BeforeMethod** and **@AfterMethod** will execute each time for each **@Test** method.
+
+************************
+
+## P5
+
+- **Scenario**
+    1. Open browser
+    2. Go to **google** -> print **title** -> print **current url**.
+    3. Close browser
+    4. Again Open browser
+    2. Go to **Facebook** -> print **title** -> print **current url**.
+    3. Close browser
+
+************************
+
+- **Source Code:-**
+
+![c_P5](GitImages/c_P5.png)
+
+************************
+
+- **Explanation:-**
+
+1. Declared driver variable in global area So that we can use it in all methods.
+
+    ```java
+        WebDriver driver;
+    ```
+
+2. BeforeClass annotated method will execute one time **before** each class
+    ```java
+        @BeforeClass
+        public void t1() {
+            System.out.println("This class tests FB and google");
+        }
+    ```
+3. AfterClass annotated method will execute one time **after** each class
+    ```java
+        public void t2() {
+            System.out.println("FB and google tests are completed");
+        }
+    ```
+
+4. Here BeforeMethod annotated method will open browser -> maximize window -> implicitly Wait for 15 seconds
+
+    ```java
+        @BeforeMethod
+        public void openApp() {
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        }
+    ```
+
+5. Here AfterMethod annotated method will close browser.
+    ```java
+        @AfterMethod
+        public void closeApp() {
+            driver.close();
+        }
+    ```
+
+6. Here first Test annotated method will Go to **google** -> print **title** -> print **current url**.
+priority is given as **1** so it will execute first before all Test annotated method.
+
+    ```java
+        @Test(priority = 1)
+        public void testGoogle() {
+            driver.get("http://www.google.com");
+            Reporter.log("Title "+driver.getTitle(),true);
+            Reporter.log("URL "+driver.getCurrentUrl(),true);
+        }
+    ```
+7. Here **second** Test annotated method will Go to **facebook** -> print **title** -> print **current url**.
+priority is given as **2** so it will execute on second priority.
+
+    ```java
+        @Test(priority = 2)
+        public void testGoogle() {
+            driver.get("http://www.fb.com");
+            Reporter.log("Title "+driver.getTitle(),true);
+            Reporter.log("URL "+driver.getCurrentUrl(),true);
+        }
+    ```
+************************
+
+- **Console**
+![SS_P5_1](GitImages/SS_P5_1.png)
+![SS_P5_2](GitImages/SS_P5_2.png)
+************************
+
+- **Report.html**
+![SS_P5_Report](GitImages/SS_P5_Report.png)
+
+************************
