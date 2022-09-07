@@ -138,7 +138,11 @@ Selenium Qspiders on eclipse with JAVA
 
 - get.windowhandle(): helps in getting the window handle of the current window
 - get.windowhandles(): helps in getting the handles of all the windows opened
-- set: helps to set the window handles which is in the form of a string.```set<string> set= driver.get.windowhandles()```
+- set: helps to set the window handles which is in the form of a string.
+```java
+    set<string> set= driver.get.windowhandles()
+```
+
 ![getwindowhandles](https://user-images.githubusercontent.com/88243315/183307832-43629bd6-d408-4ff3-aaae-c792be8bb1b1.png)
 
 
@@ -567,6 +571,6 @@ Element | Absolute Xpath | Relative Xpath
 
 ******************************************************************************
 
-[GoBackToMainFile](https://github.com/NinadKarlekar/Selenium/blob/4316f057532f7bd3089d4e841319c5ce03f9b83d/README.md)
+[GoBackToTop](#selenium)
 
 
