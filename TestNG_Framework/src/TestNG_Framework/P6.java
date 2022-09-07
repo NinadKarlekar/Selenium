@@ -35,11 +35,10 @@ public class P6 {
 		String actualTitle = driver.getTitle();
 		if (actualTitle.equals(expectedTitle)) {
 			System.out.println("test passed");
-			
-		} else {
-			
+			} 
+		else {
 			System.out.println("test failed");
-		Assert.fail();
+			Assert.fail();
 		}
 		// Further statements wont be executed because test is failed
 		Thread.sleep(3000);
