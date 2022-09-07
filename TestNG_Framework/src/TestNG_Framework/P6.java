@@ -1,7 +1,5 @@
 package TestNG_Framework;
 
-import static org.testng.Assert.fail;
-
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
