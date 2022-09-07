@@ -314,7 +314,7 @@ Program on **@BeforeMethod** and **@AfterMethod**
         }
     ```
 
-6. Here first Test annotated method will Go to **google** -> print **title** -> print **current url**.
+6. Here first **@Test** annotated method will Go to **google** -> print **title** -> print **current url**.
 priority is given as **1** so it will execute first before all Test annotated method.
 
     ```java
@@ -349,3 +349,164 @@ priority is given as **2** so it will execute on second priority.
     ![SS_P5_Report](GitImages/SS_P5_Report.png)
 
 ************************
+
+# Assertion 
+
+- Actual result is compared with expected result with the help of Assertion.
+- It means verification is done to check if the state of the application is the same to what we are expecting or not.
+- There are two types of Assertion:-
+    1. Hard Assertions.
+    2. Soft assertions.
+- These are explained as following below. 
+1. Hard Assertions : 
+- If Hard Assertions is getting failed -> **Immediatly** test case will be marked as **failed** and test case will be **terminated**.
+
+2. Soft Assertions : 
+- If Soft Assertions is getting failed -> Soft Assert collects errors during @Test. Soft Assert **does not throw an exception** when an assert fails and would **continue** with the next step after the assert statement.
+
+
+
+
+
+
+****************************************
+
+
+# P6
+
+
+- **Scenario**
+
+    1. Open browser
+    2. Go to **www.google.com** -> fetch the **title** -> Check if title is "facebook"
+    3. Print "The End". 
+    4. Close the driver.
+
+- **Source Code:-**
+
+![c_P6](GitImages/c_P6.png)
+
+- **Explanation:-**
+
+1. Declared driver variable in global area So that we can use it in all methods.
+
+    ```java
+        WebDriver driver;
+    ```
+2. Here BeforeMethod annotated method will open browser -> maximize window -> implicitly Wait for 15 seconds
+
+    ```java
+        @BeforeMethod
+        public void openApp() {
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        }
+    ```
+
+3. Here AfterMethod annotated method will close browser.
+    ```java
+        @AfterMethod
+        public void closeApp() {
+            driver.close();
+        }
+    ```
+4. Here first **@Test** annotated method will Go to **google** -> Fetch **title** and store it in a variable 
+
+    ```java
+        driver.get("http://www.google.com");
+        String actualTitle = driver.getTitle();
+    ```
+
+5. Store **"facebook"** in a variable.
+
+    ```java
+        String expectedTitle = "facebook";
+    ```
+
+6. Check if actual title is same as expected title.
+    1. If expected title is same as actual title -> Test passed
+    2. If expected title is not same as actual title -> Test Failed
+```java
+    if (actualTitle.equals(expectedTitle)) {
+        System.out.println("test passed");
+	} 
+	else {
+        System.out.println("test failed");
+        Assert.fail();
+    }
+```
+
+**************************
+
+- **Console**
+
+    ![SS_P6_console](GitImages/SS_P6_console.png)
+
+- **Report.html**
+
+    ![SS_P6_Report](GitImages/SS_P6_Report.png)
+
+
+********************************
+
+# P7
+
+
+
+- **Explanation:-**
+
+1. Declared driver variable in global area So that we can use it in all methods.
+
+    ```java
+        WebDriver driver;
+    ```
+2. Here BeforeMethod annotated method will open browser -> maximize window -> implicitly Wait for 15 seconds
+
+    ```java
+        @BeforeMethod
+        public void openApp() {
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        }
+    ```
+
+3. Here AfterMethod annotated method will close browser.
+    ```java
+        @AfterMethod
+        public void closeApp() {
+            driver.close();
+        }
+    ```
+
+4. Here first **@Test** annotated method will Go to **google** -> Fetch **title** and store it in a variable 
+
+    ```java
+        driver.get("http://www.google.com");
+        String actualTitle = driver.getTitle();
+    ```
+
+5. Store **"facebook"** in a variable.
+
+    ```java
+        String expectedTitle = "facebook";
+    ```
+
+6. Check if actual title is same as expected title.
+    1. If **`expectedTitle`** **is not equal to** **`actualTitle`** The **SoftAssert** will skip this line and continue with next line.
+    2. At the end all next lines will executed and **test will get passed**.
+
+
+    ```java
+        SoftAssert s1 = new SoftAssert();
+        s1.assertEquals(expectedTitle, actualTitle);
+    ```
+7. Although **`expectedTitle`** **is not equal to** **`actualTitle`** **Test is passed**. To overcome this problem we will use **`assertAll()`**
+
+    ```java
+        s1.assertAll();
+    ```
+
+***********************
+[GoBackToTop](#testng)

@@ -2,25 +2,27 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-07T18:34:15 IST" name="Default suite" finished-at="2022-09-07T18:34:27 IST" duration-ms="11478">
+  <suite started-at="2022-09-07T19:16:29 IST" name="Default suite" finished-at="2022-09-07T19:16:57 IST" duration-ms="27235">
     <groups>
     </groups>
-    <test started-at="2022-09-07T18:34:15 IST" name="Default test" finished-at="2022-09-07T18:34:27 IST" duration-ms="11478">
-      <class name="TestNG_Framework.P6">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:TestNG_Framework.P6@703580bf]" started-at="2022-09-07T18:34:15 IST" name="openApp" finished-at="2022-09-07T18:34:21 IST" duration-ms="5071" status="PASS">
+    <test started-at="2022-09-07T19:16:29 IST" name="Default test" finished-at="2022-09-07T19:16:57 IST" duration-ms="27235">
+      <class name="TestNG_Framework.P7">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestNG_Framework.P7@703580bf]" started-at="2022-09-07T19:16:29 IST" name="openApp" finished-at="2022-09-07T19:16:39 IST" duration-ms="10067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="test_fail_actiTime()[pri:0, instance:TestNG_Framework.P6@703580bf]" started-at="2022-09-07T18:34:21 IST" name="test_fail_actiTime" finished-at="2022-09-07T18:34:27 IST" duration-ms="6043" status="FAIL">
+        <test-method signature="test_fail_actiTime()[pri:0, instance:TestNG_Framework.P7@703580bf]" started-at="2022-09-07T19:16:39 IST" name="test_fail_actiTime" finished-at="2022-09-07T19:16:54 IST" duration-ms="14680" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[The following asserts failed:
+expected [Google] but found [facebook]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at TestNG_Framework.P6.test_fail_actiTime(P6.java:44)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Google] but found [facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at TestNG_Framework.P7.test_fail_actiTime(P7.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,11 +57,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_fail_actiTime -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestNG_Framework.P6@703580bf]" started-at="2022-09-07T18:34:27 IST" name="closeApp" finished-at="2022-09-07T18:34:27 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestNG_Framework.P7@703580bf]" started-at="2022-09-07T19:16:54 IST" name="closeApp" finished-at="2022-09-07T19:16:57 IST" duration-ms="2455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- TestNG_Framework.P6 -->
+      </class> <!-- TestNG_Framework.P7 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
