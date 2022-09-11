@@ -14,7 +14,7 @@
 ********************************************************************************
 # JavaScript_Popup
 
-- JavaScript Popup ia also called as **Alert Popups ,Confirmation Popups**.
+- JavaScript Popup is also called as **Alert Popups ,Confirmation Popups**.
 - **Characteristics**
     1. We cannot inspect this popup.
     2. We cannot move this popup.
@@ -97,7 +97,7 @@
 - **Characteristics**
     1. We can inspect this pop-up.
     2. We can move this pop-up.
-    3. It will have minimize and maximize button
+    3. It will have minimize ,maximize and close button
 
 - **Solution:-**
     - We can handle this using **getWindowHandle()** ,**getWindowHandles()** and **switchTo()** 
@@ -153,7 +153,7 @@
 
 - **Example:**
 
-![file_upload_SCREENSHOT](../../../Images/Screenshot_File%20Upload%20Popup%20(1056).png)
+![FileUpload2](../../../Images/FileUpload2.png)
 
 ![HTML_File_Upload](../../../Images/HTML_File_Upload.png)
 
@@ -196,7 +196,5 @@
 **************************************************************
 
 
+[GoBackToTop](#popups)
 
-
-
-[GoBack](https://github.com/NinadKarlekar/Selenium/blob/4316f057532f7bd3089d4e841319c5ce03f9b83d/README.md)
