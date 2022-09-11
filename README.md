@@ -103,7 +103,15 @@ Selenium Qspiders on eclipse with JAVA
 ## switchTo
 - switchTo() method is used to type text in active element.
 - Any element where cursor is blinking is called Active element.
+- switchTo() is also used to switch between frames.
 - Syntax:-
+```java
+    String myWindowHandle = driver.getWindowHandle();
+    //Redirect to the page you want and then call switchTo()
+    driver.switchTo().window(myWindowHandle );
+```
+- Example
+![Child_Browser_Popup](seleniumQSPIDERS/Images/Child_Browser_Popup.png)
 
 *********************************
 
@@ -133,10 +141,18 @@ Selenium Qspiders on eclipse with JAVA
     ```
 
 *********************************
+## getWindowHandle
+
+- get.windowhandle(): helps in getting the window handle of the current window
+- Syntax
+```java
+    String ParentWindowHandle = driver.getWindowHandle();
+```
+*****************************
+
 
 ## getWindowHandles
 
-- get.windowhandle(): helps in getting the window handle of the current window
 - get.windowhandles(): helps in getting the handles of all the windows opened
 - set: helps to set the window handles which is in the form of a string.
 ```java
@@ -152,7 +168,15 @@ Selenium Qspiders on eclipse with JAVA
 - Returns the first matching web element if multiple web elements are discovered by the locator
 - Throws NoSuchElementException if the element is not found
 - Detects a unique web element
+- Syntax for findElements()
+```java
+    WebElement elementName = driver.findElements(By.LocatorStrategy("LocatorValue"));
+```
 
+- Example
+![File_Upload_Popup](seleniumQSPIDERS/Images/File_Upload_Popup.png)
+
+***********************************
 
 ## findElements
 - A command used to identify a list of web elements within the web page.
@@ -168,6 +192,10 @@ Selenium Qspiders on eclipse with JAVA
 ```java
     List<WebElement> listOfElements = driver.findElements(By.xpath("//div"));
 ```
+![findElementsIMG](seleniumQSPIDERS/Images/Handling_Multiple_Elements.png)
+
+*****************************************
+
 ## **Locators**
 1.  [id()](#id)
 2.  [name()](#name)
@@ -178,6 +206,8 @@ Selenium Qspiders on eclipse with JAVA
 7.  [cssSelector()](#cssSelector)
 8.  [xpath()](#xpath)
 
+****************************************
+
 ### id
 - ID is uniquely defined for each element 
 - driver will locate an element by "id" attribute
@@ -185,10 +215,12 @@ Selenium Qspiders on eclipse with JAVA
 ```java
     driver.findElement(By.id(" "));
 ```
+
 - Example
 ```java
     WebElement loginTB = driver.findElement(By.id("email"));
 ```
+
 - Where `email` is **'id'**.
 ******************************************************
 ### name
@@ -412,7 +444,7 @@ Element | Absolute Xpath | Relative Xpath
 6.  [Xpath_by_AxesTag](#Xpath_by_AxesTag)
 
 ***********************************************
-### Xpath_by_Attribute
+## Xpath_by_Attribute
 - XPath expression select nodes or list of nodes on the basis of attributes like ID , Name, Classname, etc.
 - Syntax:-
 ```
@@ -425,7 +457,7 @@ Element | Absolute Xpath | Relative Xpath
 ```
 **************************************************************************
 
-### Xpath_by_TextFunction
+## Xpath_by_TextFunction
 - Syntax:-
 ```
     //tag[.='text Value']
@@ -445,10 +477,10 @@ Element | Absolute Xpath | Relative Xpath
 ```
 **************************************************************************
 
-### Xpath_by_ContainsFunction
+## Xpath_by_ContainsFunction
 - The contain feature has an ability to find the element with partial text.
 - Contains Method has 2 types:-
-    ##### 1. Attributes
+    ### 1. Attributes
     - Syntax:-
     ```
         //tag[contains(@AttributeName,'Partial Attribute Value')]
@@ -458,7 +490,7 @@ Element | Absolute Xpath | Relative Xpath
     	driver.findElement(By.xpath("//a[contains(@href,'google')]")).click();
     ```
 
-    ##### 2. Text
+    ### 2. Text
     - Syntax:-
     ```
         //tag[contains(text(),'Partial Text Value')]
@@ -478,7 +510,7 @@ Element | Absolute Xpath | Relative Xpath
 
 *****************************************************
 
-### Xpath_by_Dependant_Independant
+## Xpath_by_Dependant_Independant
 - It is also called as **Xpath Traversing**.
 - In this type of Xpath there are elements which changes with respect to time.
 - Steps:-
@@ -501,7 +533,7 @@ Element | Absolute Xpath | Relative Xpath
 
 ************************************************
 
-### Xpath_by_Group_Index
+## Xpath_by_Group_Index
 - In this type of xpath, we specify the xpath within **common brackets** `()`.
 - By doing this an xpath array is generated starting with index `1`.
 - Unique indexes are given for every matching element.
@@ -527,7 +559,7 @@ Element | Absolute Xpath | Relative Xpath
 
 ******************************************************
 
-### Xpath_by_AxesTag
+## Xpath_by_AxesTag
 - Different XPath Axes Used In Selenium Testing:-
     1. **child:-** This indicates the children of the context node
         - Syntax:-
@@ -573,4 +605,5 @@ Element | Absolute Xpath | Relative Xpath
 
 [GoBackToTop](#selenium)
 
-
+<h1>Ninad</h1>
+<h5>Kar</h5>
