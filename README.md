@@ -148,6 +148,8 @@ Selenium Qspiders on eclipse with JAVA
 ```java
     String ParentWindowHandle = driver.getWindowHandle();
 ```
+
+![getWindowHandle](seleniumQSPIDERS/Images/Child_Browser_Popup.png)
 *****************************
 
 
@@ -155,12 +157,12 @@ Selenium Qspiders on eclipse with JAVA
 
 - get.windowhandles(): helps in getting the handles of all the windows opened
 - set: helps to set the window handles which is in the form of a string.
+
 ```java
     set<string> set= driver.get.windowhandles()
 ```
 
-![getwindowhandles](https://user-images.githubusercontent.com/88243315/183307832-43629bd6-d408-4ff3-aaae-c792be8bb1b1.png)
-
+![getWindowHandle](seleniumQSPIDERS/Images/getWindowHandle.png)
 
 *********************************
 ## findElement
@@ -605,5 +607,3 @@ Element | Absolute Xpath | Relative Xpath
 
 [GoBackToTop](#selenium)
 
-<h1>Ninad</h1>
-<h5>Kar</h5>

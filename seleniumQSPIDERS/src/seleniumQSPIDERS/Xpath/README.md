@@ -72,6 +72,8 @@ Xpath are of 2 types:-
                     //OR
 	driver.findElement(By.xpath("//*[text()='Log Out']")).click();
 ```
+
+
 **************************************************************************
 
 ### Xpath_by_ContainsFunction
