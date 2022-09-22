@@ -457,6 +457,9 @@ Element | Absolute Xpath | Relative Xpath
     //To find Login TextBox in Facebook login page.
 	driver.findElement(By.xpath("//input[@type='text']")).sendKeys("bamlutuyde@vusra.com");
 ```
+
+![xpath_Attribute](seleniumQSPIDERS/Images/xpath_Attribute.png)
+
 **************************************************************************
 
 ## Xpath_by_TextFunction
@@ -468,6 +471,7 @@ Element | Absolute Xpath | Relative Xpath
             **OR**
     //*[text()='text Value']
 ```
+
 - Example:-
 ```java
     //To find password TextBox in Facebook login page.
@@ -477,6 +481,9 @@ Element | Absolute Xpath | Relative Xpath
                     //OR
 	driver.findElement(By.xpath("//*[text()='Log Out']")).click();
 ```
+
+![xpath_TextFunction](seleniumQSPIDERS/Images/xpath_TextFunction.png)
+
 **************************************************************************
 
 ## Xpath_by_ContainsFunction

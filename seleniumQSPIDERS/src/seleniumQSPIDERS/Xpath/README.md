@@ -44,14 +44,19 @@ Xpath are of 2 types:-
 ### Xpath_by_Attribute
 - XPath expression select nodes or list of nodes on the basis of attributes like ID , Name, Classname, etc.
 - Syntax:-
+
 ```
     //tag[@AttributeName='AttributeValue']
 ```
 - Example:-
+
 ```java
     //To find Login TextBox in Facebook login page.
 	driver.findElement(By.xpath("//input[@type='text']")).sendKeys("bamlutuyde@vusra.com");
 ```
+
+![xpath_Attribute](../../../Images/xpath_Attribute.png)
+
 **************************************************************************
 
 ### Xpath_by_TextFunction
@@ -73,6 +78,7 @@ Xpath are of 2 types:-
 	driver.findElement(By.xpath("//*[text()='Log Out']")).click();
 ```
 
+![xpath_TextFunction](../../../Images/xpath_TextFunction.png)
 
 **************************************************************************
 
