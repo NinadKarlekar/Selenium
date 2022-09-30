@@ -439,6 +439,7 @@ priority is given as **2** so it will execute on second priority.
     }
 ```
 
+7. `System.out.println("The end");` Will not be executed.Because in Hard Assertion if test is failed then Further statements **wont be** executed.
 **************************
 
 - **Console**
