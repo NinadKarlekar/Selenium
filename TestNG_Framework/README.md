@@ -14,6 +14,8 @@
 3. [MouseHoverAction](#mousehoveraction)
 4. [P3 (@BeforeMethod,@AfterMethod)](#P3)
 5. [P5 (Google,Facebook)](#P5)
+6. [P6 Hard Assertions](#p6)
+7. [P7 Soft Assertions](#p7)
 ***********************
 
 # Annotation in TestNG
