@@ -452,7 +452,15 @@ priority is given as **2** so it will execute on second priority.
 
 # P7
 
+- **Scenario**
 
+    1. Open browser
+    2. Go to **www.google.com** -> fetch the **title** -> Check if title is "facebook"
+    3. Print "The End". 
+    4. Close the driver.
+
+- **Source Code:-**
+    ![c_P7](GitImages/c_P7.png)
 
 - **Explanation:-**
 
@@ -507,6 +515,18 @@ priority is given as **2** so it will execute on second priority.
     ```java
         s1.assertAll();
     ```
+- **Console**
+    - Without using **`assertAll()`**
+![SS_P7_wrong](GitImages/SS_P7_wrong.png)
+
+- **Console**
+    - With **`assertAll()`**
+![SS_P7_console](GitImages/SS_P7_console.png)
+
+- **Report.html**
+    - With **`assertAll()`**
+![SS_P7_Report](GitImages/SS_P7_Report.png)
+
 
 ***********************
 [GoBackToTop](#testng)
