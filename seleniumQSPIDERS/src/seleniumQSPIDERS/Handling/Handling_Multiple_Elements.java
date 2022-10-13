@@ -16,6 +16,7 @@ public class Handling_Multiple_Elements {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.get("http://www.google.com");
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("java");
+		Thread.sleep(3000);
 		List<WebElement> allautosugg = driver.findElements(By.xpath("//span[contains(.,'ava')]"));
 		System.out.println("total number of auto suggetions " + allautosugg.size());
 		for (int i = 1; i < allautosugg.size(); i++) {
