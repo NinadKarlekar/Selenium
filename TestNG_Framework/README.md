@@ -188,15 +188,13 @@ https://testng.org/testng-eclipse-update-site
     - The **`@BeforeTest`** annotated method will be executed before the execution of all the test methods of available classes belonging to that folder.
 
 4. **AfterTest**
-    - The **`@AfterClass`** annotated method will be invoked after the execution of all the test methods of the current class.
+    - The **`@AfterTest`** annotated method will be executed after the execution of all the test methods of available classes belonging to that folder.
 
 5. **BeforeClass**
     - The **`@BeforeClass`** annotated method will be executed before the first method of the current class is invoked.
 
-
 6. **AfterClass**
     - The **`@AfterClass`** annotated method will be invoked after the execution of all the test methods of the current class.
-
 
 7. **BeforeMethod**
     - The **`@BeforeMethod`** annotated method will be executed **once** before each test method will run.
